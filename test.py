@@ -107,28 +107,28 @@ for n in xrange(1,end_page+1):
             print type(review_id)
             print access_to_test
             
-            db = MySQLdb.connect("localhost","root","6a5a4a","urcosme","charset=utf-8")
+            db = MySQLdb.connect("localhost","root","6a5a4a","urcosme",charset="utf8")
             cursor = db.cursor()
-            sql = "Insert into reviews(id,product_name,stars,reviewer_name,skin_type,num_readers,num_pushes,post_date) values (%d,%s,%d,%s,%s,%s,%d,%d,%s)" \
-                % (review_id,product_name.encode('utf-8'),stars,reviewer_name.encode('utf-8'),skin_type.encode('utf-8'),review_content_text.encode('utf-8')\
-                    ,num_readers,num_pushes,post_date.encode('utf-8'))
-
+            #sql = """Insert into reviews(review_id,product_name,stars,reviewer_name,skin_type,review_content     ,num_readers,num_pushes,post_date) values (%d,%s,%d,%s,%s,%s,%d,%d,%s)"""
+            sql = """Insert into reviews(review_id,product_name,stars,reviewer_name,skin_type,review_content     ,num_readers,num_pushes,post_date) values (%s,%s,%s,%s,%s,%s,%s,%s,%s) on duplicate key update values = (%s,%s,%s,%s,%s,%s,%s,%s,%s) """
+                 
             print sql
-            """
+            
             try:
-                cursor.execute(sql)
+                cursor.execute(sql,(review_id,product_name,stars,reviewer_name,skin_type,review_content_text,num_readers,num_pushes,post_date))
+
                 db.commit()
             except Exception , e:
-                print e
+                print "Exception : " +str(e)
                 db.rollback()
             db.close()
             break
-
+            
             #if(i>0):
             #    test_file.close()
             #    break;
             #print str(i)+" "+str(review)
-            """
+            
 
         #encoding = chardet.detect(page)
 #        print encoding['encoding'];
