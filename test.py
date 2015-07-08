@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 #encoding=utf-8
 import bs4
 import urllib2
@@ -17,7 +17,7 @@ import MySQLdb
 
 
 page_url = lambda n : 'http://www.urcosme.com/review/picked/index-4-'+str(n)+ '.htm'
-
+collected_features = set()
 
 end_page = 1
 #test_file = open("out.html","w")
@@ -68,9 +68,6 @@ for n in xrange(1,end_page+1):
             
             age = int(temp_string[age_start_index:age_end_index])
             
-            skin_type = info[0].get('src')
-            skin_type = info[0].get('src')[38:len(skin_type)-4]
-            
             review_content = review.find('div','contentpageReviewPickedReviewBlockContent').div
             review_id = int(review_content.get('id')[13:])
             review_content_text = review_content.text
@@ -101,22 +98,39 @@ for n in xrange(1,end_page+1):
             for feature in features:
                 print feature.text
             print age
-            print type(num_readers)
-            print type(num_pushes)
-            print type(stars)
-            print type(review_id)
+            
             print access_to_test
             
-            db = MySQLdb.connect("localhost","root","6a5a4a","urcosme",charset="utf8")
+            db = MySQLdb.connect("localhost","root","Aa6a5a4a","urcosme",charset="utf8")
             cursor = db.cursor()
             #sql = """Insert into reviews(review_id,product_name,stars,reviewer_name,skin_type,review_content     ,num_readers,num_pushes,post_date) values (%d,%s,%d,%s,%s,%s,%d,%d,%s)"""
-            sql = """Insert into reviews(review_id,product_name,stars,reviewer_name,skin_type,review_content     ,num_readers,num_pushes,post_date) values (%s,%s,%s,%s,%s,%s,%s,%s,%s) on duplicate key update values = (%s,%s,%s,%s,%s,%s,%s,%s,%s) """
+            sql = """Insert ignore into reviews(review_id,product_name,stars,reviewer_name,skin_type,review_content     ,num_readers,num_pushes,post_date) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)  """
                  
-            print sql
-            
-            try:
-                cursor.execute(sql,(review_id,product_name,stars,reviewer_name,skin_type,review_content_text,num_readers,num_pushes,post_date))
+            #print sql
+            num_of_features =  len(collected_features)
+                    
+                
 
+
+            try:
+                print "YOLO"
+                cursor.execute(sql,(review_id,product_name,stars,reviewer_name,skin_type,review_content_text,num_readers,num_pushes,post_date))
+                print "YOLOLO"
+                for feature in features:
+                        collected_features.add(feature)
+                        print "HI"
+                        if(len(collected_features)!= num_of_features):
+                            num_of_features = len(collected_features)
+                            
+                            sql = u"""Alter Table reviews add `%s` int(11) NOT NULL """ ;
+                            
+                            print sql;
+                            cursor.execute(sql,(feature.text))
+                        print "HI"
+                        print "HELO"   
+                        sql = u"""update reviews set `%s` = 1 where review_id = %s """;
+                        print sql
+                        cursor.execute(sql,(feature.text,review_id))
                 db.commit()
             except Exception , e:
                 print "Exception : " +str(e)
@@ -124,15 +138,6 @@ for n in xrange(1,end_page+1):
             db.close()
             break
             
-            #if(i>0):
-            #    test_file.close()
-            #    break;
-            #print str(i)+" "+str(review)
-            
-
-        #encoding = chardet.detect(page)
-#        print encoding['encoding'];
-#        print page.decode(encoding['encoding'])
     except Exception , e:
         print e
         #sys.stderr.write('Error occured while fetching %s\n' % page_url(n))

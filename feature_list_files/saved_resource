@@ -1,0 +1,1191 @@
+div#nyroModalFull{font-size:12px;color:#777;font-family:Verdana}div#nyroModalLoading{border:4px
+solid #777;width:150px;height:150px;text-indent: -9999em;background:#fff url(/include/javascript/jquery_plugins/nyroModal/img/ajaxLoader.gif) no-repeat;background-position:center}div#nyroModalLoading.error{border:4px
+solid #f66;line-height:20px;padding:20px;width:300px;height:100px;text-indent:0;background:#fff}div#nyroModalWrapper{background:#fff;border:4px
+solid #777}a#closeBut{position:absolute;display:block;top: -13px;right: -13px;width:12px;height:12px;text-indent: -9999em;background:url(/include/javascript/jquery_plugins/nyroModal/img/close.gif) no-repeat;outline:0}h1#nyroModalTitle{margin:0;padding:0;position:absolute;top: -22px;left:5px;font-size:12px;color:#ddd}div.wrapper
+div#nyroModalContent{padding:5px}div.wrapperImg
+div#nyroModalContent{position:relative;overflow:hidden;text-align:center}div.wrapperImg
+img{vertical-align:baseline}div.wrapperImg div#nyroModalContent
+div{position:absolute;bottom:0;left:0;background:black;padding:10px;margin:10px;border:1px
+white dotted;overflow:hidden;opacity:0.2;filter:alpha(opacity=20)}div.wrapperImg div#nyroModalContent div:hover{opacity:0.5;filter:alpha(opacity=50);cursor:help}div.wrapperImg
+a{outline:none;position:absolute;top:0;height:100%;cursor:pointer;text-indent: -9999em;background-image:url(data:image/gif;base64,AAAA)}a.nyroModalPrev{left:0;width:40%}a.nyroModalPrev:hover{background:url(/include/javascript/jquery_plugins/nyroModal/img/prev.gif) left 20% no-repeat}a.nyroModalNext{right:0;width:40%}a.nyroModalNext:hover{background:url(/include/javascript/jquery_plugins/nyroModal/img/next.gif) right 20% no-repeat}.contentpageContainer{margin:0
+2.5em}#contentpage{width:100%;margin-left:1.2em}#container{background-color:#fff}#sidebarBeautydiary{float:left;width:25%;border:0;margin:0;padding:0;background-color:white;border:0px
+solid #711515}#contentBeautydiary{margin:0;width:74%;float:right;border:0;padding:0;background-color:white;border:0px
+solid #711515}#sidebarBeautydiary .redlink
+a{text-decoration:underline;color:#ff5151}#sidebarBeautydiary .redlink a:hover{text-decoration:underline;color:#fba0a0}#contentBeautydiary .review-count{color:#ef8d1d;font-weight:bold;font-size:1.2em;margin-top:8px;margin-bottom:0}#contentBeautydiary
+h1{color:#ef8d1d;font-weight:bold;font-size:1.2em;margin-top:8px;margin-bottom:0}#contentBeautydiary h1
+b{margin:0
+0.5em 0 0.5em;font-weight:normal}#textblockNodata{margin-top:15px;margin-bottom:-5px}.annual_ranking_thx{padding:8px;line-height:18px;border-top:#f7cdd1 solid 2px;border-right:#E49CAA solid 2px;border-bottom:#E49CAA solid 2px;border-left:#f7cdd1 solid 2px}.annual_ranking_thx
+a{color:#757575;text-decoration:none}.annual_ranking_thx a:hover{color:#e05e8a}.annual_ranking_thx
+h6{color:#DD4679;font-weight:bold;margin:0
+0 8px 0;font-size:1.2em}.annual_ranking_thx
+.contact_list{margin:0;padding:0;list-style:none}.annual_ranking_thx .contact_list
+li{background:url(http://www.urcosme.com/search/final/images/icon_arrows_set.gif) 0 5px no-repeat;padding:0
+0 0 12px;display:inline}.annual_ranking_thx
+.more_contact_list{display:block;text-align:right}#contentBeautydiaryMainborder{position:relative;border-top:2px solid #f7cdd1;border-left:2px solid #f7cdd1;border-right:2px solid #e49caa;border-bottom:2px solid #e49caa;margin:35px
+0 0 0;padding:0}#contentBeautydiaryMainborder dt,
+#contentBeautydiaryMainborder
+dd{margin:0
+5px 0 10px;padding:5px
+0 3px 0}#contentBeautydiaryMainborder
+dl{margin:0;padding:3px
+0px 3px 0px}.pinkunderline{display:block;border-bottom:2px dotted #fbdfdb;margin:0}#contentBeautydiaryMytopMynews{width:200px;padding:0;margin:0;position:absolute;left:0}#contentBeautydiaryMytopMynews
+dl{margin:3px;padding:0}#contentBeautydiaryMytopMynews
+dd{margin:0
+0 0 12px;padding:0
+0 5px 0;text-align:left}#contentBeautydiaryMytopMynews dd
+strong{font-weight:bold;color:#e93c7c}#contentBeautydiaryMytopMynews
+dt{margin:3px
+0 5px 5px;color:#90bd2f;font-weight:bold}#contentBeautydiaryMytopMynews dt
+img{margin-right:5px}#contentBeautydiaryMytopMynews
+label{margin-right:35px}#contentBeautydiaryMytopMynews
+span{text-align:right;width:40px;display:inline-block}#contentBeautydiaryMytopMynews
+a{color:#e0467a}#contentBeautydiaryMytopMynews a:hover{color:#ec7da2}#contentBeautydiaryMytopMynews
+.uncheck{text-align:right;margin-right:21px;margin-left:0;padding:0}#contentBeautydiaryMytopMynews .uncheck
+label{color:#e0467a;margin:0}#contentBeautydiaryMytopMynews .uncheck
+span{text-align:right;color:#e0467a;width:38px;margin:0
+0 0 8px}#contentBeautydiaryMytopMynews dd.border-underline{border-bottom:1px dashed #b7b7b7;margin-top:5px;margin-bottom:10px}#contentBeautydiaryMytopAnnou{width:auto;height:110px;margin:0
+0 0 205px;border-left:2px solid #f7cdd1;position:relative;padding:0
+5px 0 5px}#contentBeautydiaryMytopAnnou dt
+span{float:right;font-weight:normal;padding:0
+0.5em 0 0}#contentBeautydiaryMytopAnnou dt span
+a{color:#e0467a}#contentBeautydiaryMytopAnnou
+dd{margin:0
+0 0 12px;padding:0
+5px 0 5px}#contentBeautydiaryMytopAnnou dd
+span{margin:0
+0 0 8px;padding:0
+5px 0 5px}#contentBeautydiaryMytopAnnou dd a,
+#contentBeautydiaryMytopAnnou dd
+p{line-height:180%}#contentBeautydiaryMytopAnnou dd p a,
+#contentBeautydiaryMytopReview dt a,
+#contentBeautydiaryMytopWishlist dt
+a{color:#e0467a;margin:0
+5px 0 5px}#contentBeautydiaryMytopAnnou dd p a:hover,
+#contentBeautydiaryMytopReview dt a:hover,
+#contentBeautydiaryMytopWishlist dt a:hover{color:#ec7da2}#contentBeautydiaryMytopAnnou
+dt{color:#dd4679;font-weight:bold;margin:5px
+0 5px 5px;padding:0}#contentBeautydiaryMainborder2{background:url(http://www.urcosme.com/beauty_diary/mbd_img/bg_contentBeautydiaryMytopEvent.gif);width:100%;background-position:1em 5em}#contentBeautydiaryMainborder2
+dl{padding:3px;margin:0;display:inline-block;float:left}#contentBeautydiaryMytopReview{width:49.5%;border:0;padding:0;margin:0;border:0px
+solid #000;float:left}#contentBeautydiaryMytopWishlist{width:48%;border:0;padding:0;margin:0;position:relative;border-left:0px dashed #c6c6c6}#contentBeautydiaryMainborder
+.none{margin-left:10px;width:auto}#contentBeautydiaryMainborder
+.none2{margin-left:18px;width:auto}#contentBeautydiaryMainborder .none2
+a{margin-left:18px}#contentBeautydiaryMytopReview dt,
+#contentBeautydiaryMytopWishlist dt,
+#contentBeautydiaryMytopProfile dt,
+#contentBeautydiaryMytopEvent dt,
+#contentBeautydiaryMytopIssue dt,
+#contentBeautydiaryReviewTop dt,
+#contentBeautydiaryNewsList
+dt{padding:5px
+3px 5px 10px;margin:0;border-bottom:2px dotted #fbdfdb;color:#e35b89;font-weight:bold}#contentBeautydiaryMytopReview dt a,
+#contentBeautydiaryMytopWishlist dt a,
+#contentBeautydiaryReviewTop dt
+a{color:#e35b89;font-weight:bold}#contentBeautydiaryMytopReview dd,
+#contentBeautydiaryMytopWishlist
+dd{margin:5px
+0 3px 0;padding:2px;float:left;width:32%;text-align:center}#contentBeautydiaryMytopReview dd p,
+#contentBeautydiaryMytopWishlist dd
+p{height:28px;margin:0
+0 5px 0;padding:0;border:0px
+solid red;width:101%;*width:100%}#contentBeautydiaryMytopReview dd a,
+#contentBeautydiaryMytopWishlist dd
+a{}#contentBeautydiaryMytopReview dd span img,
+#contentBeautydiaryMytopWishlist dd span
+img{margin:0px;padding:2px;border:1px
+solid #ccc}#contentBeautydiaryMytopProfile{border:0;padding:0;margin:0}#contentBeautydiaryMytopProfile dt
+ul{float:right;font-weight:normal;height:20px;margin:0;padding:0}#contentBeautydiaryMytopProfile dt ul
+li{float:left}#contentBeautydiaryMytopProfile dt ul li
+img{margin:0
+3px 0 3px}#contentBeautydiaryMytopProfile dt ul
+li.bold{font-weight:bold;color:#e35b89;margin-left:1em}#contentBeautydiaryMytopProfilecontent{width:35%;position:absolute;left:0;height:260px}#contentBeautydiaryMytopProfilecontent li
+a{color:#e67474;margin-left:0.5em;text-decoration:none}#contentBeautydiaryMytopProfilecontent li a:hover{color:#f5a2a2}#contentBeautydiaryMytopProfilecontent2{margin-left:35%;min-height:260px;height:auto !important;height:260px}#contentBeautydiaryMytopProfilecontent li,
+#contentBeautydiaryMytopProfilecontent2 li,
+#contentBeautydiaryMytopProfilecontent3
+li{margin:10px;border-bottom:1px dashed #c4c4c4}#contentBeautydiaryMytopProfilecontent2 li
+a{}#contentBeautydiaryMytopProfilecontent b,
+#contentBeautydiaryMytopProfilecontent2 b,
+#contentBeautydiaryMytopProfilecontent3 b,
+#contentBeautydiaryMytopEvent
+label{margin-right:1em;color:#e98a29;padding-left:18px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/dot_pinkarrow.gif) no-repeat 0 30%;font-weight:normal}#contentBeautydiaryMytopProfilecontent li
+b{display:inline-block;width:52px;margin-right:2px}#contentBeautydiaryMytopProfilecontent2 li
+p{margin-left:18px}#contentBeautydiaryMytopProfilecontent2
+textarea{margin-left:20px;background-color:white}#contentBeautydiaryMytopProfilecontent2
+select{margin:0
+0 0 20px;width:180px;background-color:white;border:1px
+solid #a1a1a1}#contentBeautydiaryMytopProfilecontent2 p
+span{display:inline-block;width:110px;margin-right:5px}#contentBeautydiaryMytopProfilecontent li
+img{margin:0
+3px 0 0}#contentBeautydiaryMytopProfilecontent3 li
+b{display:inline-block;width:100px;margin-right:2px}#contentBeautydiaryMytopProfilecontent3
+span{color:#ea5569;margin-left:5px}#contentBeautydiaryMytopProfilecontent3 li
+h3{color:#e05280;float:left;font-weight:bold}#contentBeautydiaryMytopProfilecontent select,
+contentBeautydiaryMytopProfilecontent2 li
+input{border:1px
+solid #d5d5d5;background-color:white;margin-right:3px}#contentBeautydiaryMytopEvent
+.contentBeautydiaryMytopEventBorder{margin:0;padding:0;border:0px
+solid red;width:100%}#contentBeautydiaryMytopEvent
+ul{width:47%;border:0px
+solid red;padding:8px;margin:0;display:inline-block;float:left}#contentBeautydiaryMytopEvent
+.devise{border-bottom:2px dotted #e5e5e5;height:2px;display:inline-block;margin:-5px 0 0 0 !important;margin:-20px 0 0 0;padding:0;width:100%}#contentBeautydiaryMytopEvent
+li{margin:5px
+0 5px 0}#contentBeautydiaryMytopEvent li
+a{margin-left:1.5em}#contentBeautydiaryMytopEvent li
+span{}#contentBeautydiaryMytopEvent
+b{margin-right:1em;color:#e98a29;padding-left:18px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/dot_pinkarrow.gif) no-repeat 0 30%;font-weight:normal}#contentBeautydiaryMytopEvent b
+a{color:#e98a29;font-weight:bold;margin:0
+5px 0 5px}#contentBeautydiaryMytopEvent b a:hover{color:#f8b775;font-weight:bold}#contentBeautydiaryMytopIssue dt
+ul{float:right;font-weight:normal}#contentBeautydiaryMytopIssue dt ul
+li{float:left}#contentBeautydiaryMytopIssue
+dd{width:99%;height:145px;margin:1px;overflow:scroll;overflow-x:scroll;overflow-y:hidden}#contentBeautydiaryMytopIssue table p,
+#contentBeautydiaryMytopIssue table
+a{text-align:center;margin:0}#contentBeautydiaryMytopIssue
+td{text-align:center;margin:1px;vertical-align:top}#contentBeautydiaryMytopIssue td
+img{display:block;border:1px
+solid #e6e6e6;margin:0;padding:3px;width:55px;height:55px}#contentBeautydiaryMytopIssue
+dd.scroll2{height:120px;margin:0
+5px 0 5px;overflow:scroll;overflow-x:scroll;overflow-y:hidden}#contentBeautydiaryMytopIssue dd.scroll2 b a
+img{height:18px;width:58px;border:0}#contentBeautydiaryMytopIssue
+caption{color:#ec9b40;background-color:#feefd2;text-align:left;margin:0;padding:5px;border-right:2px solid white}#contentBeautydiaryMytopProfile
+.activeExpBar{margin-top:0.2em;display:inline-block}#contentBeautydiaryMytopProfile
+.activeExpBar1{height:0.8em}#contentBeautydiaryMytopProfile
+.activeExpBar2{height:0.8em}#contentBeautydiaryReviewTop{margin-bottom:10px}#contentBeautydiaryReviewTop
+dd{margin:0
+0 0 10px;padding:2px
+0 2px 0}#contentBeautydiaryReviewTop dd
+a{display:inline-block;color:#f47607;width:70%;margin-right:5px}#contentBeautydiaryReviewTop dt
+a{margin-right:5px}#contentBeautydiaryReviewTop dd a:hover{display:inline-block;color:#feba7e}#contentBeautydiaryReviewTop dt
+span{float:right}#contentBeautydiaryReviewTop dd
+span{width:18%;display:inline-block;text-align:right}#contentBeautydiaryReviewSearchbar{margin-top:15px}#contentBeautydiaryReviewSearchbar
+label{background:url(http://www.urcosme.com/beauty_diary/mbd_img/dot_arrow_brown.gif) no-repeat;padding-left:1.7em}#contentBeautydiaryReviewSearchbar
+label.none{background:0}#contentBeautydiaryReviewSearchbar
+h5{margin:0.5em 0 0.5em 1.7em}#contentBeautydiaryReviewSearchbar h5
+strong{color:#70b01c}#contentBeautydiaryReviewSearchbar
+li{display:inline}#contentBeautydiaryReviewSearchbar li
+a{}#contentBeautydiaryReviewSearchbar li
+strong{color:#ff6b60;font-weight:normal}#contentBeautydiaryReviewSearchbar li strong
+a{color:#ff6b60}#contentBeautydiaryReviewSearchbar li strong a:hover{color:#ffaca6}.contentBeautydiaryBuylistWriteicon{color:#399591;display:inline-block;background:url(http://www.urcosme.com/beauty_diary/mbd_img/dot_review.gif) no-repeat 0 50%;padding-left:1.3em;border:0px
+solid red}.contentBeautydiaryBuylistWriteicon a,
+.contentBeautydiaryBuylistWriteicon a:link,
+.contentBeautydiaryBuylistWriteicon a:visited{color:#399591;display:inline-block;height:20px;margin:0
+0 -0.8em 0.7em}.contentBeautydiaryBuylistWriteicon a:hover{color:#8cccc9}#contentBeautydiaryWishlist .contentBeautydiaryBuylistWriteicon b
+a{margin-top:-0.9em;margin-right:0.3em;background:none}#contentBeautydiaryWishlist .contentBeautydiaryBuylistReadicon b
+a{background:none;margin-left:-1.8em;margin-top:-0.9em}.contentBeautydiaryBuylistReadicon{color:#7d92cb}.contentBeautydiaryBuylistReadicon a,
+.contentBeautydiaryBuylistReadicon a:link,
+.contentBeautydiaryBuylistReadicon a:visited{color:#7d92cb;display:inline-block;background:url(http://www.urcosme.com/beauty_diary/mbd_img/loop.gif) no-repeat left -2px;padding-left:2em;height:21px;margin-bottom:-0.9em;margin-right:0.3em}.contentBeautydiaryBuylistReadicon a:hover{color:#aab9e0}#contentBeautydiaryReviewCompleteList,#contentBeautydiaryWishlist{margin-top:0;padding:5px}#contentBeautydiaryReviewCompleteList
+h3{margin-left:5px;padding:0.2em 0 0 0}#contentBeautydiaryWishlist
+h3{margin-left:5px;padding:0.2em 0 0 0}#contentBeautydiaryReviewCompleteList h3
+a{color:#963}#contentBeautydiaryReviewCompleteList h3 a:link, #contentBeautydiaryReviewCompleteList h3 a:visited{color:#963}#contentBeautydiaryReviewCompleteList h3 a:hover,
+#contentBeautydiaryReviewCompleteList h3 a:active{text-decoration:none;color:#c68c53}#contentBeautydiaryReviewCompleteList
+h4{margin:8px
+0 5px 0;padding:0}#contentBeautydiaryReviewCompleteList h4
+a{}#contentBeautydiaryReviewCompleteList
+h5{}#contentBeautydiaryReviewCompleteList
+textarea{width:440px}#contentBeautydiaryReviewCompleteList
+span{float:right;padding-top:0.2em;border:0px
+solid red}#contentBeautydiaryReviewCompleteList
+.contentBeautydiaryReviewCompleteListBuylist{width:9em;margin-right:0.5em;margin-top:-0.3em}#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylist a,
+#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylistDone
+a{}#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylist b
+a{color:#dd1c53}#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylist b a:hover{color:#f67fa1}#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylist div,
+#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylistDone
+div{float:right;width:32px;padding:0;margin-top:0.1em;margin-left:0.1em}#contentBeautydiaryReviewCompleteList
+.contentBeautydiaryReviewCompleteListBuylistDone{width:12em;margin-right:0.5em;margin-top:-0.3em}#contentBeautydiaryReviewCompleteList .contentBeautydiaryReviewCompleteListBuylistDone
+font{}#contentBeautydiaryReviewCompleteList
+ul{padding:0;margin-left:0px}#contentBeautydiaryReviewCompleteList ul
+li{display:inline;color:#ff7171}#contentBeautydiaryReviewCompleteList ol
+li{display:inline}#contentBeautydiaryReviewCompleteList
+.wishlistTitle{padding-left:10px}#contentBeautydiaryReviewCompleteList .wishlistTitle
+a{}#contentBeautydiaryReviewCompleteList .wishlistTitle
+img{margin-left:10px}#contentBeautydiaryReviewCompleteList .pic
+ol{margin-left:10px}#contentBeautydiaryReviewCompleteList ul li
+a{}#contentBeautydiaryReviewCompleteList ul li a:link,
+#contentBeautydiaryReviewCompleteList ul li a:visited,
+#contentBeautydiaryReviewCompleteList .pic ol h4
+a{text-decoration:underline;margin-left:5px;color:#ff7171}#contentBeautydiaryReviewCompleteList ul li a:hover,
+#contentBeautydiaryReviewCompleteList ul li a:active{text-decoration:underline;color:#ffb5b5}#contentBeautydiaryReviewCompleteList .pic,
+#contentBeautydiaryWishlist .pic,
+#contentBeautydiaryReviewCompleteList
+.userpic{width:150px;left:0;position:absolute}#contentBeautydiaryReviewCompleteList .pic img,
+#contentBeautydiaryWishlist .pic
+img{width:70px;height:70px;padding:10px;margin-top:3px;margin-left:20px;border:1px
+solid #CCC}#contentBeautydiaryReviewCompleteList .userpic p
+img{width:80px;height:80px;padding:10px;margin-top:3px;margin-left:25px;margin-bottom:0;border:1px
+solid #CCC}#contentBeautydiaryReviewCompleteList .userpic
+h5{margin-top:3px;margin-left:28px}#contentBeautydiaryReviewCompleteList .userpic h5
+a{}#contentBeautydiaryReviewCompleteList
+.description{margin-top:0;margin-left:160px;position:relative;height:auto !important;height:80px;min-height:80px}#contentBeautydiaryReviewCompleteList
+.description3{margin-top:0;margin-left:160px;position:relative;height:auto !important;height:115px;min-height:115px}#contentBeautydiaryReviewCompleteList
+.description2{margin-top:0;margin-left:160px;position:relative;height:auto !important;height:135px;min-height:135px}#contentBeautydiaryWishlist
+.description{margin-top:0;margin-left:130px;position:relative;height:auto !important;height:100px;min-height:100px}#contentBeautydiaryReviewCompleteList .description img,
+#contentBeautydiaryReviewCompleteList .description2 img,
+#contentBeautydiaryReviewCompleteList .description3
+img{margin:3px}#contentBeautydiaryReviewCompleteList .description p
+img{text-align:left !important;margin:0
+!important}#contentBeautydiaryReviewCompleteList .description h3,
+#contentBeautydiaryReviewCompleteList .description
+h4{color:#eb7269;margin-top:2px}#contentBeautydiaryReviewCompleteList .description span.thumbnail,
+#contentBeautydiaryReviewCompleteList .description2 span.thumbnail,
+#contentBeautydiaryReviewCompleteList .description3
+span.thumbnail{width:80%;margin:0
+0 0 3px;float:left}#contentBeautydiaryReviewCompleteList .content fieldset p a:link,
+#contentBeautydiaryReviewCompleteList .content fieldset p a:visited,
+#contentBeautydiaryReviewCompleteList .content fieldset p a:active{text-decoration:underline}#contentBeautydiaryReviewCompleteList .content fieldset p a:hover{text-decoration:none}#contentBeautydiaryReviewCompleteList .content fieldset
+h5{margin:0.2em 0 0 1em;color:#e47203}#contentBeautydiaryReviewCompleteList .content fieldset
+h6{}#contentBeautydiaryReviewCompleteList .content fieldset p strong a:link, #contentBeautydiaryReviewCompleteList .content fieldset p strong a:visited,
+#contentBeautydiaryReviewCompleteList .content fieldset p strong a:active{color:#eb7269}#contentBeautydiaryReviewCompleteList .content fieldset p strong a:hover{color:#fdada7}#contentBeautydiaryReviewCompleteList .description
+fieldset{border:0;margin:15px
+0 0 0}#contentBeautydiaryReviewCompleteList .description fieldset
+legend{margin:0
+0 0 -8px;color:#ed7368}#contentBeautydiaryReviewCompleteList .description fieldset legend
+b{font-weight:normal}#contentBeautydiaryReviewCompleteList .description fieldset
+label{margin:0;color:#666;display:inline-block;width:28%}#contentBeautydiaryReviewCompleteList .description fieldset
+p{color:#666;margin-bottom:5px}#contentBeautydiaryReviewCompleteList .description fieldset p
+input{margin:0
+5px 0 2px;color:#666}#contentBeautydiaryReviewCompleteList
+.contentBeautydiaryReviewCompleteListAddbuylist{margin:1em
+0 0 0;color:#666;display:inline-block}#contentBeautydiaryReviewCompleteList li.contentBeautydiaryReviewCompleteListAddbuylist
+label{display:block;width:15em}#contentBeautydiaryReviewCompleteList
+.reviewbuttom{text-align:right;vertical-align:baseline;margin:0}#contentBeautydiaryReviewCompleteList .reviewbuttom
+font{}#contentBeautydiaryReviewCompleteList .reviewbuttom b
+a{color:#ef7804}#contentBeautydiaryReviewCompleteList .reviewbuttom b a:hover{color:#f7b371}#contentBeautydiaryReviewCompleteList .reviewbuttom
+strong{color:#da3d74}#contentBeautydiaryReviewCompleteList .reviewbuttom strong
+a{color:#da3d74}#contentBeautydiaryReviewCompleteList .reviewbuttom strong a:hover{color:#ff88a9}.reviewbuttom_position{position:relative}.reviewbuttom_stat_position{position:absolute;top:17px;right:125px}.reviewbuttom_push_btn{float:none !important;position:relative}.reviewbuttom_push_inner{position:relative;left:80px}#contentBeautydiaryReviewCompleteList
+.content{line-height:1.7em;*overflow:hidden;width:90%}#contentBeautydiaryReviewCompleteList .content
+p{line-height:1.7em;*overflow:hidden}#contentBeautydiaryReviewCompleteList .content
+h4{margin-top:1em}#contentBeautydiaryReviewCompleteList .content
+a{display:inline-block;line-height:1.7em}#contentBeautydiaryReviewCompleteList .content a:link,
+#contentBeautydiaryReviewCompleteList .content a:visited,
+#contentBeautydiaryReviewCompleteList .content a:hover,
+#contentBeautydiaryReviewCompleteList .content a:active{text-decoration:none}#contentBeautydiaryReviewCompleteList
+ol{margin:0;padding:0;list-style-type:none}#contentBeautydiaryReviewCompleteList
+h5{margin:5px
+0 5px 0}.contentpageBeautydiaryReviewBlockContentEffect
+li{padding-left:1.5em;background:url(http://www.urcosme.com/beauty_diary/mbd_img/effect.gif) no-repeat 0 80%;display:inline-block;margin:3px
+5px 3px 0}#contentBeautydiary
+.furtherReadingBlock{}#contentBeautydiary .furtherReadingBlock
+h3{font-weight:bold;padding:1em
+0 0.5em 15px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/icon02.gif) no-repeat 0 50%;color:#F90}#contentBeautydiary .furtherReadingBlock
+ul{float:left;width:100px;margin:0
+5px}#contentBeautydiary .furtherReadingBlock ul
+li{text-align:center;padding:0.3em 0}#contentBeautydiary .furtherReadingBlock ul li
+img{border:1px
+solid #ccc}#contentBeautydiary .furtherReadingBlock
+h5{padding:0.8em 0 0 0;color:#da3d74;text-align:right}#contentBeautydiary .furtherReadingBlock h5 a:link, #contentBeautydiary .furtherReadingBlock h5 a:visited{color:#da3d74}#contentBeautydiary .furtherReadingBlock h5 a:hover, #contentBeautydiary .furtherReadingBlock h5 a:active{color:#e26994}#contentpageBeautydiaryReviewReplyContainer{margin-top:10px}#contentpageBeautydiaryReviewReplyContainer
+h3{font-weight:bold;padding:0.5em 0 0.3em 15px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/icon02.gif) no-repeat 0 50%;color:#F90;border-bottom:1px solid #FC6}#contentpageBeautydiaryReviewReplyContainer .contentpageBeautydiaryReviewReplyBlock
+ul{float:right}#contentpageBeautydiaryReviewReplyContainer .contentpageBeautydiaryReviewReplyBlock
+li{display:inline}#contentpageBeautydiaryReviewReplyContainer
+h5{margin-top:1em}#contentpageBeautydiaryReviewReplyContainer h5
+strong{color:#960;font-weight:normal}#contentpageBeautydiaryReviewReplyContainer p
+strong{margin-top:1em;font-weight:normal;color:#F03}.contentpageBeautydiaryReviewReplyBlock{margin-top:0.2em;padding:0.5em}.contentpageBeautydiaryReviewReplyBlock
+p{}.contentpageBeautydiaryReviewReplyBlock
+h4{color:#960;padding:0.5em 0 0 0}.contentpageBeautydiaryReviewReplyBlock h4
+a{}#contentpageBeautydiaryReviewReplyContainer
+.replyNewBlock{margin:0.2em 0 0 0;padding:1em
+0.7em;background:#efefef;height:100%}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock
+p{background:#fff;padding:2px;float:left;width:40px}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock
+ol{float:left;width:90%;margin:0
+0 0 0.7em;padding:0}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol
+li{margin:0;padding:0;list-style:none;line-height:1.5em}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li
+em{font-style:normal;color:#ca7f12;display:block;padding:0
+0 0.5em 0}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li em a:link, #contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li em a:visited{color:#ca7f12}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li em a:hover, #contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li em a:active{text-decoration:none}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li
+label{float:right}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol li
+textarea{width:100%}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock ol
+.textAlignCenter{display:block}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock
+.mbdMasterReplyBlock{background:#fff;border:1px
+solid #ccc;padding:1em
+1em;height:100%;margin:0.6em 0 0 0}#contentpageBeautydiaryReviewReplyContainer .replyNewBlock .mbdMasterReplyBlock
+h4{color:#e2436b;padding:0
+0 0.5em 0}#contentBeautydiaryWishlistborder{position:relative;margin:0;padding:0}#contentBeautydiaryWishlist
+h3{color:#e0467a;margin:0
+0 2px 0}#contentBeautydiaryWishlist h3
+a{color:#e0467a}#contentBeautydiaryWishlist h3 a:hover{color:#f991b4}#contentBeautydiaryWishlist .description
+h4{color:#e57f10;margin-bottom:1px}#contentBeautydiaryWishlist .description
+h5{margin-bottom:1px;margin-top:4px}#contentBeautydiaryWishlist .description
+h6{margin-bottom:1px;margin-top:4px;height:4.5em}#contentBeautydiaryWishlist .floatRight
+a{margin-left:5px}#contentBeautydiaryWishlist
+.date{float:right;margin-top:4px}#contentBeautydiary
+.inviteFriend{float:right;background:url(http://www.urcosme.com/beauty_diary/mbd_img/bullet_invite.gif) no-repeat left 50%;padding-left:1.5em;margin-top:0.5em}#contentBeautydiary .inviteFriend
+a{color:#e35b89}#contentBeautydiary .inviteFriend a:hover{color:#f691b3}#contentBeautydiary
+.contentBeautydiaryFriendInviteBlock{background-color:#fff;padding:1em;padding-bottom:0.5em}#contentBeautydiary .contentBeautydiaryFriendInviteBlock
+h3{text-align:left;color:#676767;margin-bottom:2em}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h3
+a{color:#666;font-weight:normal;margin:0}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h3 a:hover{color:#bbb}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h3
+input{background-color:#fff;border:1px
+solid #c9c9c9;margin-right:1em}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h3 #pinkicon
+a{font-weight:normal;width:3em;color:#fff}#contentBeautydiary .contentBeautydiaryFriendInviteBlock
+h4{text-align:left;color:#676767;margin-bottom:2em;margin-top:4em}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h4
+input{background-color:#fff;border:1px
+solid #c9c9c9;margin-bottom:0.6em}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h4
+textarea{background-color:#fff;border:1px
+solid #c9c9c9;margin-bottom:0.5em}#contentBeautydiary .contentBeautydiaryFriendInviteBlock h4 #pinkicon
+a{font-weight:normal;width:3em;margin-left:19.5em;*margin-left:20.5em}#contentBeautydiaryFriendFriendlist{width:45%;float:left;position:relative;padding:0;left:0}#contentBeautydiaryFriendIconlist{width:62px;position:relative;margin-left:0;margin-top:31px;float:left;border-top:2px solid #f7cdd1;border-right:2px solid #f7cdd1;border-left:2px solid #f7cdd1;height:auto}#contentBeautydiaryFriendIconlist
+span{display:block;background:url(http://www.urcosme.com/beauty_diary/mbd_img/pals.gif) no-repeat center;height:71px;margin-top:1px}#contentBeautydiaryFriendFavorlist{width:45%;margin-right:-40%;padding:0;float:left}#contentBeautydiaryFriendFriendlist ul,
+#contentBeautydiaryFriendFavorlist
+ul{margin:5px;padding:5px
+5px 5px 5px;height:50px}#contentBeautydiaryFriendFriendlist li,
+#contentBeautydiaryFriendFavorlist
+li{display:inline;line-height:1.2em}#contentBeautydiaryFriendFriendlist li a,
+#contentBeautydiaryFriendFavorlist li
+a{}#contentBeautydiaryFriendFriendlist li h5,
+#contentBeautydiaryFriendFavorlist li
+h5{}#contentBeautydiaryFriendFriendlist li p img,
+#contentBeautydiaryFriendFavorlist li p
+img{margin:0
+6px 0 0;float:left;border:1px
+solid #d6d6d6;padding:3px;width:40px;height:40px}#contentBeautydiaryFriendFavorlist li
+h5{margin-top:8px}#contentBeautydiaryFriendFriendlist .date,
+#contentBeautydiaryFriendFavorlist
+.date{margin-left:10px;color:#b2b2b2}#contentBeautydiaryFriendFriendlist
+.del{margin-top:7px}.contentBeautydiaryFriendFriendlistTitle{border-bottom:2px solid #f7cdd1;border-right:0;margin:0;padding:5px;color:#e35b89;font-weight:bold}#contentBeautydiaryFootprints
+ul{margin:10px}#contentBeautydiaryFootprints li,
+#contentBeautydiaryfootprintsExpressbar
+li{margin-bottom:8px}#contentBeautydiaryfootprintsCount
+span{background-color:#ed759b;color:white;padding:3px;margin-right:3px}#contentBeautydiaryfootprintsExpressbar{border:1px
+solid #cccc98;margin-left:180px;margin-top:10px;margin-bottom:10px;width:310px}#contentBeautydiaryfootprintsExpressbar
+label{background-color:#efeccb;color:#926a25;padding:3px;margin-right:5px}#contentBeautydiaryfootprintsExpressbar
+.lenth{display:inline-block;border:1px
+solid #fccbd1;min-height:8px;width:200px;margin-bottom:-3px;margin-right:3px;background-color:#fff;padding:0}#contentBeautydiaryfootprintsExpressbar li span
+b{background-color:#e7354d;display:block;width:100%}#contentBeautydiaryfootprintsList
+li{border-bottom:1px dashed #ccc}#contentBeautydiaryfootprintsList li
+label{display:inline-block;width:70px;margin-left:5px;text-align:center}#contentBeautydiaryfootprintsList li
+span{display:inline-block;width:450px;margin-left:15px;margin-right:15px}#contentBeautydiaryfootprintsList li
+a{color:#e7153a}#contentBeautydiaryfootprintsList li a:hover{color:#f995a7}#contentBeautydiaryfootprintsList li
+img{width:25px;height:25px;margin:3px
+8px 3px 3px;border:0}#contentBeautydiaryNewsListTitle
+p{color:#e77e11;margin:5px
+10px 5px 1em}#contentBeautydiaryNewsListTitle p
+select{margin-left:10px}#contentBeautydiaryNewsListTitle p a:link, #contentBeautydiaryNewsListTitle p a:visited{color:#e0467a}#contentBeautydiaryNewsListTitle p a:hover, #contentBeautydiaryNewsListTitle p a:active{color:#ec7da2}#contentBeautydiaryNewsListTitle p
+span{float:right}#contentBeautydiaryNewsListTitle{margin:0;padding:0}#contentBeautydiaryNewsListTitle
+dt{float:left;margin:5px
+10px;padding:0}#contentBeautydiaryNewsListTitle dt
+img{padding:1px;border:1px
+solid #dfdfdf}#contentBeautydiaryNewsListTitle
+dd{float:left;width:590px;margin:0
+5px 2px 0;padding:0;line-height:1.5em;*height:40px}#contentBeautydiaryNewsListTitle dd
+span{color:#999}#contentBeautydiaryNewsListTitle dd
+strong{color:#555}#contentBeautydiaryNewsListTitle
+.clear{border-bottom:2px dashed #efefef;margin-bottom:0.3em}#contentBeautydiaryNewsListTitle dd
+a{color:#e0467a;margin:0
+5px 0 5px}#contentBeautydiaryNewsListTitle dd a:hover{color:#ec7da2}#contentBeautydiaryNewsListTitle
+.dividepageBlockPage{margin-right:1em}#contentBeautydiaryNewsListTitle
+.dividepageBlockPageInfor{margin-left:1em}#contentBeautydiaryNewsListTitle
+li{margin:0
+5px 5px 5px;padding:0
+7px 5px 7px;border-bottom:2px dashed #efefef}#contentBeautydiaryNewsListTitle li
+span{color:#999}#contentBeautydiaryNewsListTitle li
+strong{color:#555}#contentBeautydiaryNewsListTitle li strong
+img{padding:1px;border:1px
+solid #dfdfdf}#contentBeautydiaryNewsListTitle li
+a{color:#e0467a;margin:0
+5px 0 5px}#contentBeautydiaryNewsListTitle li a:hover{color:#ec7da2}#contentBeautydiaryNewsListTitle .mystatus
+a{color:#e68007;margin:0
+5px 0 5px}#contentBeautydiaryNewsListTitle .mystatus a:hover{color:#f4a950}#contentBeautydiaryNewsFriendrivew h1
+span{color:gray;font-weight:normal}#contentBeautydiaryNewsFriendrivew
+b{margin-right:8px}#contentBeautydiaryNewsFriendrivew
+em{font-style:normal;color:#ee8d1c}#contentBeautydiaryNewsFriendrivew em a:link, #contentBeautydiaryNewsFriendrivew em a:visited{color:#ee8d1c}#contentBeautydiaryNewsFriendrivew em a:hover, #contentBeautydiaryNewsFriendrivew em a:active{color:#f4a950}#sidebarBeautydiaryNewsOrderlist
+p{display:block;background:url(http://www.urcosme.com/beauty_diary/mbd_img/dot_greenarrow.gif) no-repeat 0 65%;margin:10px
+0 0 20px;padding:0.5em 0  0 18px;border-bottom:2px dotted #f5c41f;width:75%}#sidebarBeautydiaryNewsOrderlist
+ul{border:0px
+solid #000;width:85%;height:250px;margin:6px
+0 0 20px;overflow:scroll;overflow-x:hidden;overflow-y:auto}#sidebarBeautydiaryNewsOrderlist ul
+li{}#sidebarBeautydiaryNewsOrderlist li
+a{display:inline-block;margin:3px
+0 0 15px;width:115px}#contentBeautydiaryTracelist li,
+#contentBeautydiaryReplyformore
+li{margin:3px
+0 3px 0;border-bottom:2px dotted #fbdfdb}#contentBeautydiaryTracelist li
+h1{font-weight:normal;color:#676767;margin-bottom:3px;margin-top:0}#contentBeautydiaryTracelist li
+label{display:inline-block;width:110px;text-align:center}#contentBeautydiaryTracelist li
+a{}#contentBeautydiaryTracelist li p
+a{color:#e35b89}#contentBeautydiaryTracelist li p a:hover{color:#f297b6}#contentBeautydiaryTracelist li
+.contentBeautydiaryTracelistFinal{display:inline-block;width:138px;text-align:center}#contentBeautydiaryTracelist li h1
+.contentBeautydiaryTracelistTopic{display:inline-block;width:350px;text-align:center;letter-spacing:50px}#contentBeautydiaryTracelist li
+.contentBeautydiaryTracelistTopic{display:inline-block;width:350px}#contentBeautydiaryTracelist li
+.contentBeautydiaryTracelistCancel{/*\*/display:inline-block;width:63px;text-align:center}/**/#contentBeautydiaryReplyformore
+li{border:0}#contentBeautydiaryReplyformore li
+h1{font-weight:normal;background-color:#fff5ba;color:#fd8900;margin-bottom:3px;margin-top:0}#contentBeautydiaryReplyformore li p,
+#contentBeautydiaryReplyformore li
+a{color:#895f00}#contentBeautydiaryReplyformore li a:hover{color:#b79444}#contentBeautydiaryReplyformore li
+label{display:inline-block;width:155px;padding-left:5px}#contentBeautydiaryReplyformore li p
+label{}#contentBeautydiaryReplyformore li
+.contentBeautydiaryReplyformoreComment{display:inline-block;width:380px}#contentBeautydiaryReplyformore li
+.contentBeautydiaryReplyformoreNo{display:inline-block;width:40px;text-align:center}#contentBeautydiaryReplyformore li
+.contentBeautydiaryReplyformoreDate{display:inline-block;width:80px;text-align:center}#contentBeautydiaryReplyformore li p
+.contentBeautydiaryReplyformoreDate{display:inline-block;width:80px;text-align:center}#contentBeautydiarySitemsglist
+li{margin:0;border-bottom:2px dotted #fbdfdb;padding-bottom:10px;padding-right:10px}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnou,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPR,
+#contentBeautydiarySitemsglist
+.contentBeautydiarySitemsglistBlog{background-color:#fffdee;padding-top:10px}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnouRead h3,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPRRead h3,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistBlogRead
+h3{padding-top:10px}#contentBeautydiarySitemsglist span
+img{margin-left:5px}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnou h3,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnouRead
+h3{background:url(http://www.urcosme.com/beauty_diary/mbd_img/icon_annou.gif) no-repeat 0 50%;padding-left:45px;margin-left:10px;margin-bottom:8px}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnou h3 a,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistBlog h3
+a{color:#fe8422;width:83%;display:inline-block}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnouRead h3 a,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPRRead h3 a,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistBlogRead h3
+a{width:83%;display:inline-block}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistAnnou h3 a:hover,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistBlog h3 a:hover{color:#fdaf6f}#contentBeautydiarySitemsglist
+h4{margin-left:10px}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPR h3
+a{color:#de5475;width:83%;display:inline-block}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPR h3 a:hover{color:#f4a2b5}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPR h3,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistPRRead
+h3{background:url(http://www.urcosme.com/beauty_diary/mbd_img/icon_pr.gif) no-repeat 0 50%;padding-left:45px;margin-left:10px;margin-bottom:8px}#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistBlog h3,
+#contentBeautydiarySitemsglist .contentBeautydiarySitemsglistBlogRead
+h3{background:url(http://www.urcosme.com/beauty_diary/mbd_img/icon_blog.gif) no-repeat 0 50%;padding-left:45px;margin-left:10px;margin-bottom:8px}#contentBeautydiaryNewsFavorbrand{border:2px
+solid #e0e0e0;padding:0;width:95%;margin:10px
+auto 0 auto;height:65px}#contentBeautydiaryNewsFavorbrand
+li{float:left;padding:0}#contentBeautydiaryNewsFavorbrand
+.contentBeautydiaryNewsFavorbrandText{width:58%}#contentBeautydiaryNewsFavorbrand
+.contentBeautydiaryNewsFavorbrandPic{width:38%;vertical-align:top}#contentBeautydiaryNewsFavorbrand .contentBeautydiaryNewsFavorbrandText
+a{font-weight:bold;margin-bottom:-10px;margin-top:2px;display:block}#contentBeautydiaryNewsFavorbrand
+img{width:230px;height:65px}#contentBeautydiary
+.contentBeautydiaryNewsFavorbrandLink{text-align:right;margin-top:8px;margin-right:12px}#contentBeautydiary .contentBeautydiaryNewsFavorbrandLink
+a{color:#e35b89;font-weight:bold}#contentBeautydiary .contentBeautydiaryNewsFavorbrandLink a:hover{color:#fc9dbd;font-weight:bold}#contentBeautydiaryBrandlist
+li{margin:3px
+0 10px 0}#contentBeautydiaryBrandlist li
+h1{font-weight:normal;color:#676767;margin-bottom:3px;margin-top:0}#contentBeautydiaryBrandlist li
+label{display:inline-block;width:70px;text-align:center}#contentBeautydiaryBrandlist li p
+a{color:#e35b89}#contentBeautydiaryBrandlist li
+a{}#contentBeautydiaryBrandlist li p a:hover{color:#f297b6}#contentBeautydiaryBrandlist
+.contentBeautydiaryBrandlist{margin-left:2px;width:22%;display:inline-block;text-align:center;vertical-align:MIDDLE}#contentBeautydiaryNewsList
+span{color:#ef8d1d;margin-right:15px}#contentBeautydiaryNewsList
+strong{color:#ef8d1d;margin-right:15px;font-weight:normal}#contentBeautydiaryNewsList strong a:link, #contentBeautydiaryNewsList strong a:visited{color:#ef8d1d}#contentBeautydiaryNewsList strong a:hover, #contentBeautydiaryNewsList strong a:active{color:#f4b46c}#contentBeautydiaryNewsList
+dd{margin-top:5px}#contentBeautydiaryNewsList dd
+em{color:#888;font-style:normal}#contentBeautydiaryNewsList
+label{margin-right:15px}#contentBeautydiaryEdittopicTitle
+h4{color:#ec9b40;padding:3px;background-color:#feefd2;height:15px;text-align:left;margin:10px;border-right:2px solid white;display:block}#contentBeautydiaryEdittopicTitle
+div{float:left;display:block;margin:5px;text-align:center;height:105px}#contentBeautydiaryEdittopicTitle div
+h5{text-align:center}#contentBeautydiaryEdittopicTitle
+img{display:block;border:1px
+solid #e5e7e6;width:55px;height:55px;padding:5px}#sidebarBeautydiary{margin-bottom:15px}#sidebarBeautydiary
+dl{margin:0
+5px 10px 5px;padding:0}#sidebarBeautydiary dt,
+#sidebarBeautydiary
+dd{margin:0
+0 2px 0;padding:0}#sidebarBeautydiary dd
+select{width:130px;margin:5px}.sidebarBeautydiaryAbout{margin:10px
+auto 1px auto;text-align:center;padding:3px;border:0px
+solid #000}.sidebarBeautydiaryAbout
+li{padding:2px;display:block;text-align:center}#sidebarBeautydiary
+dt{background:url(http://www.urcosme.com/beauty_diary/mbd_img/flower.gif) no-repeat 0 50%;color:#f66;font-weight:bold;border-bottom:2px dotted #f5b7ba;padding:0.5em 0  0.3em 23px;margin-bottom:0.3em}#sidebarBeautydiary dd,
+#sidebarBeautydiary dd
+p{}#sidebarBeautydiary li
+a{}#sidebarBeautydiary
+li{margin-bottom:2px}.sidebarBeautydiaryAbout
+span{font-weight:bold;color:#eb8e2f;display:block}.sidebarBeautydiaryAbout em
+a{font-style:normal}.sidebarBeautydiaryAbout em a:link, .sidebarBeautydiaryAbout em a:visited{color:#eb8e2f}.sidebarBeautydiaryAbout em a:hover, .sidebarBeautydiaryAbout em a:active{color:#f4b46c}.sidebarBeautydiaryAbout li.avatar
+img{padding:10px;border:1px
+solid #CCC;margin-left:-10px}.sidebarBeautydiaryAbout li
+h5{margin: -163px 0 100px 22px;display:block}.sidebarBeautydiaryAbout li
+h6{display:block;border:0px
+solid #000;position:absolute;margin: -165px 0 100px 180px;*margin: -160px 0 100px 50px;height:152px;overflow:hidden}#sidebarBeautydiary.activeExpBar{margin-top:0.2em;float:left}#sidebarBeautydiary .friend
+img{border:1px
+solid #ccc;padding:1px;width:35px;height:35px}#sidebarBeautydiary
+.sidebarBeautydiaryUserRanking{background:url(http://www.urcosme.com/beauty_diary/mbd_img/userranking_bg.gif) bottom no-repeat}#sidebarBeautydiary .sidebarBeautydiaryUserRanking
+ul{padding:0
+0 0.3em 0;margin:0
+0 1em 0}#sidebarBeautydiary .sidebarBeautydiaryUserRanking ul
+li{color:#fff;padding:0
+0.7em}#sidebarBeautydiary .sidebarBeautydiaryUserRanking ul li a:link, #sidebarBeautydiary .sidebarBeautydiaryUserRanking ul li a:visited{color:#fff;text-decoration:none}#sidebarBeautydiary .sidebarBeautydiaryUserRanking ul li a:hover, #sidebarBeautydiary .sidebarBeautydiaryUserRanking ul li a:active{color:#fff;text-decoration:underline}#sidebarBeautydiary.activeExpBar1{height:0.8em}#sidebarBeautydiary.activeExpBar2{height:0.8em}#sidebarpageBeautydiaryFootprintChart{margin-top:0.5em;border:1px
+solid #ccc}.newstitle{margin:3px
+0 5px 20px;color:#90bd2f;font-weight:bold}.newstitle
+img{margin-right:3px;margin-top: -2px}#sidebarBeautydiaryNewsmenu{border:2px
+solid #f2e3ba;background-color:#fefde1;margin-left:auto;margin-right:auto;padding:0;width:80%}#sidebarBeautydiaryNewsmenu
+ul{text-align:center;margin-top:10px;margin-bottom:10px;margin-left:auto;margin-right:auto;padding:0}#sidebarBeautydiaryNewsmenu ul
+li{height:22px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/pallete_news_other.gif) no-repeat center;text-align:center;color:#fff;margin:5px
+0 10px 0;* margin: 5px 0 0 0}#sidebarBeautydiaryNewsmenu a:link, #sidebarBeautydiaryNewsmenu a:visited{color:#fff;display:block;line-height:22px;background-color:transparent;text-decoration:none}#sidebarBeautydiaryNewsmenu a
+span{color:#ffed87;font:bold 0.85em Verdana, Geneva, Arial, Helvetica, sans-serif;margin-left:5px}#sidebarBeautydiaryNewsmenu  a:hover{background:url(http://www.urcosme.com/beauty_diary/mbd_img/pallete_news_over.gif) no-repeat center}#sidebarBeautydiaryNewsmenuAct li.sidebarBeautydiaryNewsmenuAct,
+#sidebarBeautydiaryNewsmenuFriendreview li.sidebarBeautydiaryNewsmenuFriendreview,
+#sidebarBeautydiaryNewsmenuWishlistreview li.sidebarBeautydiaryNewsmenuWishlistreview,
+#sidebarBeautydiaryNewsmenuDiscuss li.sidebarBeautydiaryNewsmenuDiscuss,
+#sidebarBeautydiaryNewsmenuFavorbrand li.sidebarBeautydiaryNewsmenuFavorbrand,
+#sidebarBeautydiaryNewsmenuSitemsg li.sidebarBeautydiaryNewsmenuSitemsg,
+#sidebarBeautydiaryNewsmenuEdmorder
+li.sidebarBeautydiaryNewsmenuEdmorder{color:white;background:url(http://www.urcosme.com/beauty_diary/mbd_img/pallete_news_now.gif) no-repeat center}#sidebarBeautydiaryNewsmenuAct li.sidebarBeautydiaryNewsmenuAct a:link,
+#sidebarBeautydiaryNewsmenuAct li.sidebarBeautydiaryNewsmenuAct a:visited,
+#sidebarBeautydiaryNewsmenuFriendreview li.sidebarBeautydiaryNewsmenuFriendreview a:link,
+#sidebarBeautydiaryNewsmenuFriendreview li.sidebarBeautydiaryNewsmenuFriendreview a:visited,
+#sidebarBeautydiaryNewsmenuWishlistreview li.sidebarBeautydiaryNewsmenuWishlistreview a:link,
+#sidebarBeautydiaryNewsmenuWishlistreview li.sidebarBeautydiaryNewsmenuWishlistreview a:visited,
+#sidebarBeautydiaryNewsmenuDiscuss li.sidebarBeautydiaryNewsmenuDiscuss a:link,
+#sidebarBeautydiaryNewsmenuDiscuss li.sidebarBeautydiaryNewsmenuDiscuss a:visited,
+#sidebarBeautydiaryNewsmenuFavorbrand li.sidebarBeautydiaryNewsmenuFavorbrand a:link,
+#sidebarBeautydiaryNewsmenuFavorbrand li.sidebarBeautydiaryNewsmenuFavorbrand a:visited,
+#sidebarBeautydiaryNewsmenuSitemsg li.sidebarBeautydiaryNewsmenuSitemsg a:link,
+#sidebarBeautydiaryNewsmenuSitemsg li.sidebarBeautydiaryNewsmenuSitemsg a:visited,
+#sidebarBeautydiaryNewsmenuEdmorder li.sidebarBeautydiaryNewsmenuEdmorder a:link,
+#sidebarBeautydiaryNewsmenuEdmorder li.sidebarBeautydiaryNewsmenuEdmorder  a:visited{color:white}#sidebarBeautydiaryNewsmenuAct li.sidebarBeautydiaryNewsmenuAct a:hover,
+#sidebarBeautydiaryNewsmenuFriendreview li.sidebarBeautydiaryNewsmenuFriendreview a:hover,
+#sidebarBeautydiaryNewsmenuWishlistreview li.sidebarBeautydiaryNewsmenuWishlistreview a:hover,
+#sidebarBeautydiaryNewsmenuDiscuss li.sidebarBeautydiaryNewsmenuDiscuss a:hover,
+#sidebarBeautydiaryNewsmenuFavorbrand li.sidebarBeautydiaryNewsmenuFavorbrand a:hover,
+#sidebarBeautydiaryNewsmenuSitemsg li.sidebarBeautydiaryNewsmenuSitemsg a:hover,
+#sidebarBeautydiaryNewsmenuEdmorder li.sidebarBeautydiaryNewsmenuEdmorder a:hover{color:white;background:transparent;}#wrapperBeautydiaryTop,#wrapperBeautydiaryReview,#wrapperBeautydiaryWishlist,#wrapperBeautydiaryFriends,#wrapperBeautydiaryFootprints,#wrapperBeautydiaryNews{background-color:white;width:100%;border:0;margin:0;padding:0}#headerBeautydiary
+ul{margin:10px
+0 0 0;padding:0
+0 0 50px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/heqader_bg.gif) repeat-x}#headerBeautydiary ul
+li{float:left;width:105px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_link.gif) no-repeat;margin:0
+0px 0 1px;text-align:center;padding-top:5px;*padding-top:7px}#headerBeautydiary ul
+li.headerBeautydiaryNews{float:left;width:105px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_newslink.gif) no-repeat;color:white;margin:0
+1px 0 1px;text-align:center;padding-top:0px}#headerBeautydiary ul li a
+span{font-weight:normal}#headerBeautydiary a:link, #headerBeautydiary a:visited{color:#786547;display:block;background-color:transparent;text-decoration:none;padding:4px;font-weight:bold}#headerBeautydiary  a:hover{color:#b99f77}#headerBeautydiary  .backtomyMBD a:link,
+#headerBeautydiary  .backtomyMBD a:visited,
+#headerBeautydiary  .backtomyMBD a:active{background:none;margin: -52px 0 0 710px !important;margin: -60px 0 0 710px;border:0px
+solid #000;width:180px;padding:0;vertical-align:baseline}#headerBeautydiary  .backtomyMBD
+img{margin-left:3px}#headerBeautydiary
+.backtomyMBDavatar{border:1px
+solid #ccc;padding:1px}#wrapperBeautydiaryTop li.headerBeautydiaryTop,
+#wrapperBeautydiaryReview li.headerBeautydiaryReview,
+#wrapperBeautydiaryBuylist li.headerBeautydiaryBuylist,
+#wrapperBeautydiaryWishlist li.headerBeautydiaryWishlist,
+#wrapperBeautydiaryFriends li.headerBeautydiaryFriends,
+#wrapperBeautydiaryFootprints li.headerBeautydiaryFootprints,
+#wrapperBeautydiaryBuylist
+li.headerBeautydiaryBuylist{border-bottom:1px solid #fff;color:white;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_now.gif) no-repeat}#wrapperBeautydiaryTop li.headerBeautydiaryTop a:link,
+#wrapperBeautydiaryTop li.headerBeautydiaryTop a:visited,
+#wrapperBeautydiaryReview li.headerBeautydiaryReview a:link,
+#wrapperBeautydiaryReview li.headerBeautydiaryReview a:visited,
+#wrapperBeautydiaryWishlist li.headerBeautydiaryWishlist a:link,
+#wrapperBeautydiaryWishlist li.headerBeautydiaryWishlist a:visited,
+#wrapperBeautydiaryFriends li.headerBeautydiaryFriends a:link,
+#wrapperBeautydiaryFriends li.headerBeautydiaryFriends a:visited,
+#wrapperBeautydiaryFootprints li.headerBeautydiaryFootprints a:link,
+#wrapperBeautydiaryFootprints li.headerBeautydiaryFootprints a:visited,
+#wrapperBeautydiaryBuylist li.headerBeautydiaryBuylist a:link,
+#wrapperBeautydiaryBuylist li.headerBeautydiaryBuylist a:visited{color:white}#wrapperBeautydiaryNews li.headerBeautydiaryNews  a:link,
+#wrapperBeautydiaryNews li.headerBeautydiaryNews  a:visited{height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_newsnow.gif) no-repeat;width:105px}#wrapperVIPBeautydiaryTop,#wrapperVIPBeautydiaryReview,#wrapperVIPBeautydiaryWishlist,#wrapperVIPBeautydiaryFriends,#wrapperVIPBeautydiaryFootprints,#wrapperVIPBeautydiaryNews{background-color:white;width:100%;border:0;margin:0;padding:0}#headerVIPBeautydiary
+ul{margin:10px
+0 0 0;padding:0
+0 0 50px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_bg_vip.gif) repeat-x}#headerVIPBeautydiary ul
+li{float:left;width:105px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_link_vip.gif) no-repeat;margin:0
+0px 0 1px;text-align:center;padding-top:5px;*padding-top:7px}#headerVIPBeautydiary ul
+li.headerBeautydiaryNews{float:left;width:105px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_newslink_vip.gif) no-repeat;color:white;margin:0
+1px 0 1px;text-align:center;padding-top:0px}#headerVIPBeautydiary ul
+li.headerBeautydiaryBonus{float:left;width:105px;height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_bonus_vip.gif) no-repeat;color:white;margin:0
+1px 0 1px;text-align:center;padding-top:0px}#headerVIPBeautydiary ul li.headerBeautydiaryBonus a:hover{background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_bonus_soon_vip.gif) no-repeat}#headerVIPBeautydiary ul li a
+span{font-weight:normal;font-size:0.8em}#headerVIPBeautydiary a:link, #headerVIPBeautydiary a:visited{color:#300e76;display:block;background-color:transparent;text-decoration:none;padding:4px;font:bold 0.9em Verdana, Geneva, Arial, Helvetica, sans-serif;*font:bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif}#headerVIPBeautydiary  a:hover{color:#9772b2}#headerVIPBeautydiary  .backtomyMBD a:link,
+#headerVIPBeautydiary  .backtomyMBD a:visited,
+#headerVIPBeautydiary  .backtomyMBD a:active{background:none;margin: -52px 0 0 710px !important;margin: -60px 0 0 710px;border:0px
+solid #000;width:180px;padding:0;vertical-align:baseline}#headerVIPBeautydiary  .backtomyMBD
+img{margin-left:3px}#headerVIPBeautydiary
+.backtomyMBDavatar{border:1px
+solid #ccc;padding:1px}#wrapperVIPBeautydiaryTop li.headerBeautydiaryTop,
+#wrapperVIPBeautydiaryReview li.headerBeautydiaryReview,
+#wrapperVIPBeautydiaryBuylist li.headerBeautydiaryBuylist,
+#wrapperVIPBeautydiaryWishlist li.headerBeautydiaryWishlist,
+#wrapperVIPBeautydiaryFriends li.headerBeautydiaryFriends,
+#wrapperVIPBeautydiaryFootprints li.headerBeautydiaryFootprints,
+#wrapperVIPBeautydiaryBuylist
+li.headerBeautydiaryBuylist{border-bottom:1px solid #fff;color:white;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_now_vip.gif) no-repeat}#wrapperVIPBeautydiaryTop li.headerBeautydiaryTop a:link,
+#wrapperVIPBeautydiaryTop li.headerBeautydiaryTop a:visited,
+#wrapperVIPBeautydiaryReview li.headerBeautydiaryReview a:link,
+#wrapperVIPBeautydiaryReview li.headerBeautydiaryReview a:visited,
+#wrapperVIPBeautydiaryWishlist li.headerBeautydiaryWishlist a:link,
+#wrapperVIPBeautydiaryWishlist li.headerBeautydiaryWishlist a:visited,
+#wrapperVIPBeautydiaryFriends li.headerBeautydiaryFriends a:link,
+#wrapperVIPBeautydiaryFriends li.headerBeautydiaryFriends a:visited,
+#wrapperVIPBeautydiaryFootprints li.headerBeautydiaryFootprints a:link,
+#wrapperVIPBeautydiaryFootprints li.headerBeautydiaryFootprints a:visited,
+#wrapperVIPBeautydiaryBuylist li.headerBeautydiaryBuylist a:link,
+#wrapperVIPBeautydiaryBuylist li.headerBeautydiaryBuylist a:visited{color:#fe5891}#wrapperVIPBeautydiaryNews li.headerBeautydiaryNews  a:link,
+#wrapperVIPBeautydiaryNews li.headerBeautydiaryNews  a:visited{height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_newsnow_vip.gif) no-repeat;width:105px}#wrapperVIPBeautydiaryNews li.headerBeautydiaryBonus  a:link,
+#wrapperVIPBeautydiaryNews li.headerBeautydiaryBonus  a:visited{height:41px;background:url(http://www.urcosme.com/beauty_diary/mbd_img/header_button_bonus_vip.gif) no-repeat;width:105px}#popup,#popup2{width:100%;background-color:#e3718a;border:5px
+solid #fff;padding:0;line-height:130%;margin:0
+auto 0 auto}#popup dl,#popup2
+dl{margin:-15px 10px 10px 10px }#popup dt,#popup2
+dt{color:#fee45b;font-weight:bold;margin:0;padding:0}#popup dd,#popup2
+dd{color:#FFF;margin:0
+0 10px 0}#popup dt img,#popup2 dt
+img{margin:5px}#popup p,#popup2
+p{text-align:right;margin:5px;color:#FFF}#popup a,#popup2
+a{color:#ffe45d;font-weight:bold;margin:0
+5px 0 5px}#popup dd img,#popup2 dd
+img{margin:0
+5px 0 5px}#popup a:hover,#popup2 a:hover{color:#ffee9a;font-weight:bold}#popup h3,#popup2
+h3{color:#FFF;text-align:center;margin-bottom:6px}#popup h4,#popup2
+h4{color:#FFF;text-align:center;margin-bottom:10px}#popupAddwishlist{border:1px
+solid #717171;background-color:white;width:100%;padding:0;margin:0}#popupAddwishlist
+h3{display:block;height:4em;text-align:center;padding-top:5em}#popupAddwishlist h3
+b{color:#dc487a;font-weight:bold;display:block;font-size:1.5em;margin-bottom:0.3em}#popupAddwishlist h3
+a{margin:0
+3px 0 3px}#popupAddwishlist
+h4{display:block;text-align:center;margin-top:3em}#popupAddwishlist
+h6{margin-left:6em;margin-top:0.5em}#popupAddwishlist dd h6
+a{color:#7ba313}#popupAddwishlist dd h6 a:hover{color:#abd146}#popupAddwishlist
+.popupAddwishlistInput{color:#afafaf;background-color:#fff;border:1px
+solid #909090}#popupAddwishlist
+p{text-align:center;background-color:#f4adbb;color:white;font-weight:bold;margin:0;padding:3px}#popupAddwishlist label dd
+p{background-color:#fff6c5;font-weight:normal;color:#847e70;text-align:left}#popupAddwishlist dd
+a{color:#dc487a;font-weight:bold}#popupAddwishlist dd a:hover{color:#f67ea7;font-weight:bold}#popupAddwishlist dd
+b{color:#e98724}#popupAddwishlist
+dl{margin:10px}#popupAddwishlist
+dd{margin:5px
+0 8px 0}#popupAddwishlist dd
+span.floatRight{padding:0
+0 0 -5em;margin-right:2em}#popupAddwishlist
+textarea{vertical-align:top;width:350px;height:100px}#popupAddwishlist
+.contentBeautydiaryPopupFriendInviteBlock{width:80%;margin:0
+auto 0 auto;min-height:400px;*height:400px}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock
+h2{text-align:center;margin:1em
+auto 1em auto}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock
+#pinkicon{width:3em}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock
+h3{text-align:left;padding:1em;height:4em}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h3
+img{margin-right:1em;margin-bottom:3em}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h3
+a{margin:0}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h3
+input{background-color:#fff;border:1px
+solid #c9c9c9;margin-right:1em;color:#b5b5b5}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock
+h4{text-align:left;color:#676767;margin-bottom:2em;margin-top:1em;margin-left:1em;line-height:180%}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h4
+input{background-color:#fff;border:1px
+solid #c9c9c9;color:#b5b5b5}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h4
+textarea{background-color:#fff;border:1px
+solid #c9c9c9;margin-bottom:0.5em;height:5em;color:#b5b5b5}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h4
+#pinkicon{margin-left:26.5em;*margin-left:26em}#popupAddwishlist
+.contentBeautydiaryPopupFriendInviteBlockWin{display:block;text-align:center}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlockWin
+a{background:url(http://www.urcosme.com/beauty_diary/mbd_img/window_icon.gif) no-repeat 0 50%;padding:1em
+0 1em 2em}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock h5
+a{margin-left:12em;*margin-left:13em;width:6em;margin-bottom:2em}#popupAddwishlist .contentBeautydiaryPopupFriendInviteBlock
+h6{margin-top:10em;font-size:1.2em;margin-left:-0.3em;*margin-left:0.5em;text-align:center;height:4em;padding-top:2em;width:100%}.popupEditReview{background:#fff;padding:3em
+0 3.5em 0}.popupEditReview
+h3{text-align:center;font-weight:bold;color:#dc487a;font-size:1.2em}.popupEditReview
+h5{text-align:center;padding:0.5em 0 0 0}.popupEditReview h5 a:link,.popupEditReview h5 a:visited{color:#d7791c}.popupEditReview h5 a:hover,.popupEditReview h5 a:active{text-decoration:none}#contentStep3favorbrand{border:1px
+solid #ff999a}#contentStep3favorbrand
+h3{border-bottom:2px dotted #fbdfdb;color:#f30040;font-weight:normal;text-align:left;padding:5px}#contentStep3favorbrand
+ul{margin:5px
+0 5px 0;float:left;width:32%}#contentStep3favorbrand
+li{}#contentStep3favorbrand
+.frame{height:600px;margin:0;overflow:scroll;overflow-x:hidden;overflow-y:auto}#righttopCommonMynews{width:200px;border:1px
+solid #e6e6e4;background-color:white;padding:0;margin:0}#righttopCommonMynews
+dl{margin:10px
+9px 10px 9px;padding:0}#righttopCommonMynews
+dd{margin:0
+0 5px 0;text-align:right}#righttopCommonMynews
+dt{margin:0;color:#90bd2f;font-weight:bold;margin-bottom:10px}#righttopCommonMynews dt
+img{margin-right:5px}#righttopCommonMynews
+label{margin-right:45px}#righttopCommonMynews .uncheck
+label{margin-right:5px;color:#ec7da2}#righttopCommonMynews
+span{text-align:right;width:40px;display:inline-block}#righttopCommonMynews .uncheck
+span{text-align:right;display:inline-block;color:#ec7da2;width:auto;width:40px}#righttopCommonMynews
+a{color:#e0467a}#righttopCommonMynews a:hover{color:#ec7da2}#righttopCommonMynews dd.border-underline{border-bottom:1px dashed #b7b7b7;margin-top:5px;margin-bottom:10px}#pinkicon{margin:0;padding:0;display:inline-block}#pinkicon
+a{display:block;width:100%;color:white;padding:1px;background-color:#db6074;border:2px
+solid #f7a0ac;-moz-border-radius:3px;-webkit-border-radius:3px;text-align:center;text-decoration:none}#pinkicon a:hover{display:block;color:white;padding:1px;text-decoration:none;background-color:#e47d8e;text-align:center}#contentBeautydiaryMytopProfile div a,
+#contentBeautydiaryMytopIssue div a,
+#contentBeautydiaryMytopIssue dt li
+a{}#cancelicon{margin:0;padding:0;display:inline-block}#cancelicon
+a{display:block;width:100%;color:#da5f71;padding:1px;background-color:#fff;border:2px
+solid #e97e84;-moz-border-radius:3px;-webkit-border-radius:3px;text-align:center;text-decoration:none}#cancelicon a:hover{background-color:#fdf7d1}.contentBeautydiaryReviewTopSub{color:#6ba610;float:right;margin-top:0.3em}#why,#why2{display:inline-block}#why, #why a,#why2, #why2
+a{color:#6ba610;font-weight:bold}#why a:hover,#why2 a:hover{color:#abe158;font-weight:bold}#why img,#why2
+img{margin-left:3px}.sidebarBeautydiaryAbout
+b{color:#6ba610}.dividepageBlockPageInfor{padding-top:0.9em}.dividepageBlockPage{padding-top:0.5em}.popupInviteReview{width:450px;background-color:#fff;margin:0;padding:0;border:1px
+solid #717171}.popupInviteReview
+h2{text-align:center;background-color:#f4adbb;color:white;font-weight:bold;margin:0;padding:4px}.popupInviteReview
+span{margin-right:1em;color:#717171}.popupInviteReview
+ul{height:320px;margin:0.5em auto 0.5em auto;overflow:scroll;overflow-x:hidden;overflow-y:scroll;width:95%}.popupInviteReview
+li{margin:0.1em auto 0.2em auto;width:400px%;border-bottom:2px dotted #d6d6d6;color:#b8b8b8}.popupInviteReview
+p{text-align:center;margin:1EM auto 1em auto}.popupInviteReview p
+#pinkicon{width:60px;padding:0}.popupInviteReview p #pinkicon
+a{padding:0;margin:0}.popupInviteReview li
+input{margin:0
+0.5em  0 0.5em}.oneclickListBigBlock{margin-bottom:0.3em}.oneclickListBigBlock
+h2{background:url(http://www.urcosme.com/maintitle/annualsale09/img/title_bg.gif) no-repeat;height:25px;padding:11px
+0 0 1em;font-weight:bold;color:#fff;margin-top:0.5em}.oneclickListBigBlock h2
+span{}.oneclickListBigBlock h2
+a{font-weight:normal}.oneclickListBigBlock h2 a:link, .oneclickListBigBlock h2 a:visited{color:#fff}.oneclickListBigBlock
+.oneclickListBigBlockPinkbg{background:url(http://www.urcosme.com/maintitle/annualsale09/img/title_bgpink.gif) no-repeat}.oneclickListBigBlock
+h6{color:#fff;background-color:#eda1ad;text-align:center;padding:0.4em;border-right:2px solid #d9d9d9;border-left:2px solid #d9d9d9;border-bottom:2px solid #d9d9d9;margin:0em
+0.4em 0 0.4em}.oneclickListBigBlock  h6
+a{}.oneclickListBigBlock  h6 a:link, .oneclickListBigBlock  h6 a:visited{color:#fff}.oneclickListContent{border-right:2px solid #d9d9d9;border-left:2px solid #d9d9d9;margin:0em
+0.3em;padding:0;border-bottom:1px solid #d9d9d9;height:100%}.oneclickListContent
+h3{background:url(http://www.urcosme.com/maintitle/annualsale09/img/list_style_q.gif) no-repeat 7px 2px;padding:5px
+1em 0.6em 3em;margin:0}.oneclickListContent h3
+a{}.oneclickListContent h3 a:link, .oneclickListContent h3 a:visited{color:#d04265}.oneclickListContent h3 a:hover, .oneclickListContent h3 a:active{color:#df8098}.oneclickListContent h3
+span{float:right}.oneclickListContent h3 span
+a{}.oneclickListContent h3 span a:link, .oneclickListContent h3 span a:visited{color:#666}.oneclickListContent h3 span a:hover, .oneclickListContent h3 span a:active{color:#999}.oneclickListContent h3
+em{font-style:normal}.oneclickListContent
+h4{padding:0em
+1em 0.4em 3.5em}.oneclickListContent h4
+em{color:#f7931e;font-weight:bold;font-style:normal}.oneclickListContent h4
+strong{color:#f7931e;float:right}.oneclickListContent h4
+img{padding:1px;border:1px
+solid #ccc;margin-right:3px}.oneclickListContent
+.oneclickListLatestBlock{float:left;width:82%}.oneclickListContent
+p{float:left;padding:1.5em 0 1.5em 1em}.oneclickListContent
+.oneclickListAccumulateSubBlock{margin-left:200px}.oneclickListContent
+h5{padding:0.3em 0 0 0.5em;color:#f7931e;font-weight:bold;text-align:center;width:58px}.oneclickListContent h5
+strong{color:#e8b100;margin-top:0.7em;display:block}.oneclickListContent
+.oneclickListGamekingBlock{float:left;width:55%;margin-top:0.5em}.oneclickListContent
+.gamekingProfileBlock{float:left;width:32%}.oneclickListContent .gamekingProfileBlock
+h5{padding:5px;float:left}.oneclickListContent .gamekingProfileBlock h5
+img{border:1px
+solid #ccc;padding:2px}.oneclickListContent .gamekingProfileBlock
+ol{padding-top:1em}.oneclickListContent .gamekingProfileBlock ol li
+strong{color:#f7931e}#contentBeautydiaryMytopWishlist .blockAnnua09MylistTitle b,
+#contentBeautydiaryMytopWishlist .blockAnnua09MylistTitle
+p{color:#ec9c30}#contentBeautydiaryMytopWishlist .blockAnnua09MylistTitle b
+a{color:#ec9c30}#contentBeautydiaryMytopWishlist .blockAnnua09MylistTitle b a:hover{color:#ffb859}.contentBeautydiaryWishlistReply{border-top:1px dashed #e5e5e5;margin:0.5em 0 0 0;padding-top:0.5em}.contentBeautydiaryWishlistReplyToolbar{border:0px
+solid blue;margin-top:0.5EM}.contentBeautydiaryWishlistReplyToolbar
+#pinkicon{width:64px}.contentBeautydiaryWishlistReplyToolbar
+b{margin-left:1em}.contentBeautydiaryWishlistReplyToolbar b
+a{margin-left:0em;font-weight:normal}.contentBeautydiaryWishlistReplyComment{margin-bottom:1em}.contentBeautydiaryWishlistReplyComment
+img{width:32px;height:32px;border:1px
+solid #e3e3e3;padding:0.2em;margin-right:0.5em}.contentBeautydiaryWishlistReplyComment
+span{float:left;border:0px
+solid #000}.contentBeautydiaryWishlistReplyComment span a,
+.contentBeautydiaryWishlistReplyComment span a:link,
+.contentBeautydiaryWishlistReplyComment span a:visited,
+.contentBeautydiaryWishlistReplyComment span a:active{text-decoration:none}.contentBeautydiaryWishlistReplyCommentContent{width:64%}.contentBeautydiaryWishlistReplyCommentName{width:26%}.contentBeautydiaryWishlistReply
+textarea{width:99%;display:block;margin:0
+auto 0.5em auto}.contentBeautydiaryWishlistReply
+#pinkicon{width:64px;float:right}#sidebarBeautydiary
+.facebookInviteFriends{float:left;margin:0.3em 0.2em 0.5em 0}#sidebarBeautydiary .facebookInviteFriends
+p{text-align:center}#sidebarBeautydiary .facebookInviteFriends p
+a{font-weight:normal}#contentBeautydiaryMainborder
+.facebookInviteFriends{float:left;margin:0.5em 0.2em 0.5em 0.3em}#contentBeautydiaryMainborder .facebookInviteFriends
+p{text-align:center}#contentBeautydiaryMainborder .facebookInviteFriends p
+a{font-weight:normal}.siteberFriendRecommendationBlock{margin:1em
+0 0.5em 0}.siteberFriendRecommendationBlock
+h3{color:#f66;font-weight:bold;padding-bottom:5px}.siteberFriendRecommendationBlock ul
+li{width:30%;float:left;margin:5px
+3px;text-align:center;height:100px}.siteberFriendRecommendationBlock ul li
+img{border:1px
+solid #dfdfdf;padding:2px;margin-bottom:3px}.siteberFriendRecommendationBlock
+h5{text-align:right}.friendBigTitle
+em{color:#e35a88;font-style:normal}.friendBigTitle em
+a{color:#ef8d1d;font-weight:normal}.friendBigTitle em a:link, .friendBigTitle em a:visited{color:#ef8d1d}.friendBigTitle em a:hover, .friendBigTitle em a:active{color:#f4b46c}.followMemberBlock{}.followMemberBlock
+h3{font-weight:bold;color:#e35a88;padding:0.6em 0.3em;border-bottom:2px solid #f7cdd1}.followMemberBlock
+dl{border-bottom:2px dotted #fbdfdc;height:100%}.followMemberBlock dl
+dt{float:left;width:45px}.followMemberBlock dl dt
+img{border:1px
+solid #dfdfdf;padding:2px}.followMemberBlock dl
+dd{float:left;width:580px;*width:570px}.followMemberBlock dl dd
+em{font-style:normal;color:#999}.followMemberBlock dl dd
+span{float:right;line-height:2em}.followMemberBlock dl dd span
+strong{color:#f9a743}.followMemberBlock dl dd span
+a{color:#909090}.followListPopupBlock{border:1px
+solid #d5d1d0;width:220px;background:#fff}.followListPopupBlock
+dl{margin:0;padding:0.8em 0.5em}.followListPopupBlock dl
+dt{padding:0.3em 4em 0.3em 0}.followListPopupBlock dl
+dd{margin: -1.5em 0 0.3em 0;text-align:right}#popup
+.followAdd{padding:1em
+0.5em 0.5em 0.5em}#popup .followAdd
+dt{padding:0
+0 0.5em 0}#popup .followAdd
+dd{padding:0
+0 1em 0;line-height:1.5em}#popup .followAdd dd
+span{display:inline-block;padding:0
+1em 0 0}#contentBeautydiary
+.followRecommendationBlock{margin:1.5em 0 1em 0;height:100%}#contentBeautydiary .followRecommendationBlock
+h3{color:#70b01c;font-weight:bold;padding:1.5em 0 0.7em 0}#contentBeautydiary .followRecommendationBlock
+ul{float:left;width:95px;height:130px;margin:0
+13px 2em 0}#contentBeautydiary .followRecommendationBlock ul
+li{text-align:center;padding:0
+0 0.3em 0}#contentBeautydiary .followRecommendationBlock ul li
+img{padding:5px;border:1px
+solid #dfdfdf}#contentBeautydiary .followRecommendationBlock ul li
+a{}#contentBeautydiary .followRecommendationBlock ul li a:link, #contentBeautydiary .followRecommendationBlock ul li a:visited{color:#70b01c}#contentBeautydiary .followRecommendationBlock ul li a:hover, #contentBeautydiary .followRecommendationBlock ul li a:active{text-decoration:none}.beautyReportBigTitle
+span{float:right;color:#666;font-weight:normal}.beautyReportBlock
+#contentBeautydiaryMainborder{padding:1em}#contentBeautydiary .beautyReportBlock
+h5{padding:0
+0 1em 0}#contentBeautydiary .beautyReportBlock h5
+span{float:right}#contentBeautydiary .beautyReportBlock
+p{text-align:center}.beautyReportBlock
+.reviewRanking{padding:1.5em 0 0 0}.beautyReportBlock .reviewRanking
+h3{padding:0
+0 1em 0;color:#ef8d1e;font-weight:bold}.beautyReportBlock .reviewRanking
+h6{background:#f4f3f1;padding:0.3em 0}.beautyReportBlock .reviewRanking h6 label, .beautyReportBlock .reviewRanking li
+label{width:80px;display:inline-block;text-align:center}.beautyReportBlock .reviewRanking h6 span, .beautyReportBlock .reviewRanking li
+span{float:right;width:80px;display:inline-block;text-align:center}.beautyReportBlock .reviewRanking
+li{padding:0.6em 0;border-bottom:1px dashed #ccc}.beautyReportSmall{float:left;width:319px;margin:2em
+1em 2em 0}.beautyReportSmall
+p{text-align:center;margin:1em
+0}.beautyReportAddwishlist{margin:0
+0 1em 0}.beautyReportAddwishlist h1
+span{color:#666;font-weight:normal}.beautyReportAddwishlist
+h6{background:#cc3f62;text-align:center;padding:0.5em 0}.beautyReportAddwishlist h6
+a{}.beautyReportAddwishlist h6 a:link, .beautyReportAddwishlist h6 a:visited{color:#fff}.beautyReportAddwishlist
+#contentBeautydiaryNewsListTitle{margin:1em
+0.3em 0.3em 0.3em}.beautyReportAddwishlist #contentBeautydiaryNewsListTitle
+li{border-bottom:1px dashed #ccc}*{padding:0;margin:0}#TB_window{font:12px Arial,Helvetica,sans-serif;color:#333}#TB_secondLine{font:10px Arial, Helvetica, sans-serif;color:#666}#TB_window a:link{color:#666}#TB_window a:visited{color:#666}#TB_window a:hover{color:#000}#TB_window a:active{color:#666}#TB_window a:focus{color:#666}#TB_overlay{position:fixed;z-index:100;top:0px;left:0px;height:100%;width:100%}.TB_overlayMacFFBGHack{background:url(/include/MarsZ/plugins/jQuery/thickbox/macFFBgHack.png) repeat}.TB_overlayBG{background-color:#000;filter:alpha(opacity=75);-moz-opacity:0.75;opacity:0.75}* html
+#TB_overlay{position:absolute;height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight+'px')}#TB_window{position:fixed;background:#fff;z-index:102;color:#000;display:none;border:4px
+solid #525252;text-align:left;top:50%;left:50%}* html
+#TB_window{position:absolute;margin-top:expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px')}#TB_window
+img#TB_Image{display:block;margin:15px
+0 0 15px;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-top:1px solid #666;border-left:1px solid #666}#TB_caption{height:25px;padding:7px
+30px 10px 25px;float:left}#TB_closeWindow{height:25px;padding:11px
+25px 10px 0;float:right}#TB_closeAjaxWindow{padding:7px
+10px 5px 0;margin-bottom:1px;text-align:right;float:right}#TB_ajaxWindowTitle{float:left;padding:7px
+0 5px 10px;margin-bottom:1px}#TB_title{background-color:#e8e8e8;height:27px}#TB_ajaxContent{clear:both;padding:2px
+15px 15px 15px;overflow:auto;text-align:left;line-height:1.4em}#TB_ajaxContent.TB_modal{padding:15px}#TB_ajaxContent
+p{padding:5px
+0px 5px 0px}#TB_load{position:fixed;display:none;height:13px;width:208px;z-index:103;top:50%;left:50%;margin: -6px 0 0 -104px}* html
+#TB_load{position:absolute;margin-top:expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop)+'px')}#TB_HideSelect{z-index:99;position:fixed;top:0;left:0;background-color:#fff;border:none;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;height:100%;width:100%}* html
+#TB_HideSelect{position:absolute;height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight+'px')}#TB_iframeContent{clear:both;border:none;margin-bottom:-1px;margin-top:1px;_margin-bottom:1px}body{margin:0;padding:0;background-color:#f4f3ef;font-family:Verdana,Arial,Helvetica;voice-family:"\"}\"";voice-family:inherit;color:#666;font-size:0.75em}html>body{color:#666}p,a,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,select,input,textarea{font-family:Verdana,Arial,Helvetica;voice-family:"\"}\"";voice-family:inherit;font-size:1em;color:#666}html>p,html>a,html>td,html>th,html>ul,html>ol,html>li,html>dl,html>dt,html>dd,html>h1,html>h2,html>h3,html>h4,html>h5,html>h6{font-size:1em;color:#666}th{}h1,h2,h3,h4,h5,h6{padding:0;margin:0;text-align:left;font-weight:normal}ul{padding:0;margin:0;text-align:left;list-style-type:none}p{text-align:left;margin:0;padding:0;line-height:1.6em}img{border:0}form{padding:0;margin:0}select{}textarea{border:1px
+solid #acacac;color:#666;line-height:1.6em}.mark_keyword{font-weight:normal;color:#e70157}.hide{display:none}.clear{clear:both}.clearLeft{clear:left}.clearRight{clear:right}.textAlignTop{vertical-align:top}.textAlignCenter{text-align:center}.textAlignRight{text-align:right}.textAlignLeft{text-align:left}.verticalAlignTop{vertical-align:top}.floatLeft{float:left}.floatRight{float:right}.noWrap{white-space:nowrap}input.textbox{border:1px
+solid #999;font-size:11px;padding:2px}input.button{border:1px
+solid #999;font-size:11px}#contentpage
+#contentpageTopSearchResultLegend{padding-left:17px;background:url(http://www.urcosme.com/search/jpg/arr04.gif) no-repeat 0 50%}#contentpage #contentpageTopSearchResultLegend
+p{padding:0.4em;color:#f03}#contentpage #contentpageTopSearchResultLegend
+strong{color:#f03;font-weight:weight;border-bottom:1px dashed #f03}.dividepageBlockInfo{float:left;padding-top:0.3em;clear:both}.dividepageBlockPage{float:right;margin:0.3em 0}.dividepageBlockPage
+a{}.activeExpBar{margin-left:0.2em}.activeExpBar1{height:1em;background:url(http://www.urcosme.com/beauty_diary/image/line01.gif) repeat-x 0 50%;float:left;border:1px
+solid #ccc}.activeExpBar2{height:1em;background:url(http://www.urcosme.com/beauty_diary/image/line02.gif) repeat-x 0 50%;float:left}.activeExpBar
+strong{float:left;margin-left:0.2em}#contentpageSearchNoFoundBlock{padding-top:2em}.firefoxHeightFix{height:100%}.prevNextBlock{}.prevNextBlock
+ul{}.prevNextBlock ul
+li{}.prevNextBlock ul li
+a{font-size:1em}.selected{background-color:#F9F}.bundles{}.bundles
+.bundle{}.bundles .bundle div.label
+span{}.bundles .bundle #rectags,.bundles .bundle
+#poptags{}a.class1:link{text-decoration:underline;color:#f03}a.class1:visited{text-decoration:underline;color:#f03}a.class1:hover{text-decoration:underline;color:#f66}a.class1:active{text-decoration:underline;color:#f03}a:link{text-decoration:underline;color:#666}a:visited{text-decoration:underline;color:#666}a:hover{text-decoration:underline;color:#999}a:active{text-decoration:none;color:#666}.pagination{padding:2px}.pagination
+ul{margin:0;padding:0}.pagination
+li{list-style-type:none;display:inline;padding-bottom:1px;color:#ccc;margin:0
+1px}.pagination a, .pagination a:visited{padding:0
+5px;border:1px
+solid #EC5E82;text-decoration:none;color:#EC5E82;background:#fff}.pagination a:hover, .pagination a:active{border:1px
+solid #E51F50;color:#E51F50}.pagination
+li.currentpage{font-weight:bold;padding:0
+10px;border:1px
+solid #F291A9;background-color:#F291A9;color:#FFF}.pagination
+li.disablepage{padding:0
+5px;border:1px
+solid #ccc;color:#929292;background:#fff}.pagination
+li.nextpage{font-weight:bold}* html .pagination li.currentpage, * html .pagination
+li.disablepage{margin-right:5px;padding-right:0}#contentpage
+.contentpageSearchedReviewBlockVote{color:#A25C23;margin:0
+5px 20px;height:20px}#contentpage .contentpageSearchedReviewBlockVote
+span{color:#FF5C5C}#contentpage .contentpageSearchedReviewBlockVote
+strong{font-size:1.2em;color:#7C512E}.shinkansen{width:150px}.shinkansen
+h3{background:url(http://www.urcosme.com/sinkansen/images/sidebar_shinkansen.gif) no-repeat;height:40px;text-indent:-5000px}.shinkansen
+ul{border:1px
+solid #FFC3C4;padding:3px
+5px}.shinkansen
+li{line-height:1.8em;list-style:circle;margin-left:15px;color:#8DC769;border-bottom:1px dashed #CCC;padding-top:2px}.shinkansen li
+a{text-decoration:none}.shinkansen li
+a{text-decoration:none}.special_ads{margin:0.5em 0}.special_ads
+a{color:#F03}.special_ads a:link,.special_ads a:visited{color:#F03}.special_ads a:hover,.special_ads a:active{color:#ccc}#sidebarpageLeftTopBanner
+img{margin-bottom:0.3em}.poweredByLabsUcosme{border-bottom:1px dotted #F99;margin:0
+0 0.5em 0  !important;color:#9C7A53 !important;padding:0
+!important;text-align:right}.poweredByLabsUcosme
+a{color:#9C7A53 !important;font-size:1em !important}.poweredByLabsUcosme
+img{margin-bottom:5px}.debug_1{}.debug_2{color:#fff}.paginationSquareBrackets{}.paginationSquareBrackets
+p{text-align:right}.paginationSquareBrackets
+.disablepage{color:#ccc}.adsSidebarAllwebInformationColumn{margin:0.6em 0 0 0;padding:0}.adsSidebarAllwebInformationColumn
+dl{border-right:1px solid #ccc;border-left:1px solid #ccc;border-bottom:1px solid #ccc;padding:5px;height:100%;margin:0}.adsSidebarAllwebInformationColumn dl
+dt{float:left;width:54%}.adsSidebarAllwebInformationColumn dl
+dd{float:left;width:45%;margin:5px
+0 0 0}.adsSidebarAllwebInformationColumn dl dd
+img{padding-right:0.2em}.adsSidebarAllwebInformationColumn dl dd
+a{}.adsSidebarAllwebHotBlock{margin-top:0.5em;text-align:center}#sidebarpageAdsBlock
+h2{background:none !important;padding:0
+!important}.sidebarpageInform
+ul{margin-top:0.5em}.sidebarpageInform ul
+li{padding:0.1em}.sidebarpageInform ul li
+a{}#sidebarpageCompare{margin-top:0.2em;border:1px
+solid #dda6b4;padding:3px;height:100%}#sidebarpageCompare
+h3{background:url(http://www.urcosme.com/search/img/compare_bg.gif) repeat-x 0 50%;text-align:center;color:#fff;padding:0.2em 0}#sidebarpageCompare
+h4{border-bottom:1px solid #dda6b4;display:block;width:100%;padding:0.3em 0}#sidebarpageCompare
+ul{}#sidebarpageCompare ul
+li{border-bottom:1px dashed #dda6b4;padding:0.2em 0}#sidebarpageCompare ul li
+img{padding:0
+1.2em}#sidebarpageCompareBottom{margin-top:0.3em}.blockPicText{}.blockPicText
+.blockPic{width:30%;float:left}.blockPicText .blockPic
+p{text-align:center}.blockPicText
+.blockText{margin-left:0.5em;width:68%;float:left}.psBlock{text-align:right}.psBlock
+a{}.psBlockLeft{text-align:left}.psBlockLeft
+a{}.backTop{text-align:right}.backTop
+a{}.paginationSquareBrackets{}.paginationSquareBrackets
+a{}.paginationSquareBrackets
+p{}.reviewPollReply{}.reviewPollReply
+.reviewPollReplyLeft{float:left}.reviewPollReply .reviewPollReplyLeft
+a.accuse{color:#fc736d}.reviewPollReply .reviewPollReplyLeft
+a.reply{color:#fd6502;font-weight:bold}.reviewPollReply
+.reviewPollReplyRight{float:right}.reviewPollReply .reviewPollReplyRight
+a{color:#d0486c;text-decoration:underline}.blockAdsSWFTwin{padding:0;margin:10px
+0;overflow:hidden }span.tagMatches{margin-left:10px}span.tagMatches
+span{padding:2px;margin-right:4px;background-color:#0000AB;color:#fff;cursor:pointer}#headerpage
+.headerpageMemberBlock{background:url(http://www.urcosme.com/images_index2/user_infor.gif) no-repeat;float:left;width:230px;margin:1em
+0 0 0}#headerpage .headerpageMemberBlock
+p{float:left;padding:0.4em 0.5em 0.5em 1em}#headerpage .headerpageMemberBlock
+h3{color:#d64c80;font-weight:bold;padding:0.8em 0 0.2em 0}#headerpage .headerpageMemberBlock h3 a:link, #headerpage .headerpageMemberBlock h3 a:visited{color:#d64c80;text-decoration:none}#headerpage .headerpageMemberBlock h3 a:hover, #headerpage .headerpageMemberBlock h3 a:active{color:#d64c80;text-decoration:underline}#headerpage .headerpageMemberBlock
+h4{padding-left:0.5em}#headerpage .headerpageMemberBlock h4
+a{}#headerpage .headerpageMemberBlock h4
+span{float:right;padding-right:1em}#headerpage .headerpageMemberBlock
+h5{margin:0.5em}#headerpage .headerpageMemberBlock h5
+a{}#headerpage .headerpageMemberBlock h5
+span{float:right}#headerpage
+#headerpageNavBlock{margin-bottom:1em}#headerpageNavBlock
+span{float:right;padding-top:0.5em;padding-right:0.3em}#headerpageNavBlock span
+input{color:#999}#headerpage #headerpageNavBlock
+ul{background:url(http://www.urcosme.com/images_index2/menu_bg.gif) repeat-x}#headerpage #headerpageNavBlock ul
+li{display:inline;margin:0
+5px 0 9px}#headerpage #headerpageNavBlock ul li
+input{color:#999}#headerpage #headerpageNavBlock ul
+p{margin-bottom: -5em;text-align:right}div.jMyCarousel ul li .brandswindow a
+img{border:1px
+solid #ccc;padding:2px}#popupInforDefault{background-color:white;padding:0
+0 2em 0;margin:0}#popupInforDefault
+h3{text-align:center;background-color:#f4adbb;color:white;font-weight:bold;margin:0;padding:3px}#popupInforDefault
+p{padding:2em
+2em 0 2em;line-height:2em}#headerpageHelpBlock
+h1{float:left;margin-left:0.3em}#headerpageHelpBlock{width:966px;margin-right:auto;margin-left:auto;padding:0.1em 0;margin-top:0.2em}#headerpageHelpBlock
+ul{float:right;margin-right:0.5em}#headerpageHelpBlock
+li{margin:0;display:inline}#headerpageHelpBlock li
+a{font-size:1em;text-decoration:none}#headerpageHelpBlock li a:hover, #headerpageHelpBlock li a:active{text-decoration:underline}#container{width:980px;margin-right:auto;margin-left:auto;box-shadow:0 0 5px #CCC;background-color:#fff;border-top:1px solid #CCC}#headerpage{margin:0
+8px;padding:0
+1em}#headerpage
+#headerpageLogoBlock{float:left;padding-top:1.5em;margin-bottom:0.5em;margin-right:0.2em;width:235px}#headerpage
+.headerpageCountBlock{margin:1.1em 0 0 0.8em;float:left;width:15%}#headerpage .headerpageCountBlock
+p{float:left;margin-right:0.2em}#headerpage .headerpageCountBlock
+h3{margin-top:0.5em}#sidebarpage #sidebarpageHelpBlock li a, #headerpage .headerpageCountBlock
+a{}#footerpage{clear:both}#footerpage
+.footerpagebg{background:url(http://www.urcosme.com/images_index2/footer_bg2.gif) repeat-x;border-top:1px solid #ccc;padding:0.3em 0}.footerpagebg
+p{text-align:center;padding:0.2em 0;color:#d15275;font-weight:bold}.footerpagebg
+ul{text-align:center;padding:0.2em 0}.footerpagebg
+li{display:inline}.footerpagebg li
+a{}#footerpage
+#footerpageList{background-color:#F2F2F2;border-bottom:0px}#footerpage #footerpageList li
+b{color:#666}#footerpage #footerpageList li a:link,
+#footerpage #footerpageList li a:visited{color:#666}#footerpage
+.footerpageMenu{background:url(http://www.urcosme.com/images_index2/footerlist.gif) no-repeat 50%}#footerpage .footerpageMenu
+li{color:#fff}#footerpage .footerpageMenu li a:link ,#footerpage .footerpageMenu li a:visited{color:#fff;text-decoration:none}#footerpage .footerpageMenu li a:hover, #footerpage .footerpageMenu li a:active{color:#fff;text-decoration:underline}#footerpage
+#footerpageCopyright{}#footerpage #footerpageCopyright h4,#footerpage #footerpageCopyright
+h5{font-weight:bold;text-align:center;padding:0.2em}#footerpage #footerpageCopyright
+a{}#footerpage #footerpageCopyright
+h5{font-weight:normal}.review_socialMediaButton{margin:10px
+0;font-size:12px;line-height:18px;color:#666}.review_socialMediaButton
+a{text-decoration:none}.review_socialMediaButton
+p{margin:8px
+0}.review_socialMediaButton p.read_statistics a , .share_thisReview a,.ur_push_tooltip{background-image:url(http://www.urcosme.com/search/final/images/review_social_midia_button.gif);background-repeat:no-repeat}.review_socialMediaButton
+p.read_statistics{text-align:right;line-height:21px}.review_socialMediaButton p.read_statistics
+a{width:66px;height:22px;text-align:center;display:inline-block;color:#fff;background-position:0 0;margin-left:5px}.review_socialMediaButton p.read_statistics a:hover{color:#ffe0e0}.review_socialMediaButton
+.continual{border:#fecdcd solid 2px;color:#dc6c7b;padding:2px
+5px;margin:0
+5px 0 0;font-style:normal}.review_socialMediaButton
+hr{border:none;border-bottom:2px dotted #fbdfdb;margin:5px
+0}.review_socialMediaButton
+ol{margin:0;padding:0;list-style:none}.review_socialMediaButton ol
+li{display:inline;background:url(http://www.urcosme.com/search/final/images/effect.gif) no-repeat 0 50%;padding:0
+0 0 20px;margin:0
+0 5px 0}.share_thisReview{line-height:38px;display:inline-block;float:left}.share_thisReview
+a{width:21px;height:38px;display:inline-block;margin:0
+8px 0 0;text-indent:-99999px;cursor:pointer}.share_thisReview
+a.fb_share{background-position:-70px -42px}.share_thisReview a.fb_share:hover{background-position:-140px -42px}.share_thisReview
+a.twitter{background-position:-70px -92px}.share_thisReview a.twitter:hover{background-position:-140px -92px}.share_thisReview
+a.google{background-position:-70px -142px}.share_thisReview a.google:hover{background-position:-140px -142px}.share_thisReview
+a.weibo{background-position:-70px -192px}.share_thisReview a.weibo:hover{background-position:-140px -192px}.share_thisReview
+a.plurk{background-position:-70px -242px}.share_thisReview a.plurk:hover{background-position:-140px -242px}.ur_push_btn{display:inline-block;float:left;margin:5px
+0 0 5px}.ur_push_btn
+span{float:none !important}.ur_push_tooltip{width:170px;height:120px;padding:17px
+10px 10px 10px !important;background-position:0 -300px;margin:0;list-style:none;display:none}.ur_push_tooltip
+li{display:block !important;color:#666 !important}.ur_push_tooltip
+img{display:block !important}.ur_push_tooltip
+a{display:block !important}.review_socialMediaButton
+p.ur_member_response{text-align:right;clear:both}.review_socialMediaButton p.ur_member_response
+a{color:#ef7804;font-weight:bold;margin:0
+5px}.review_socialMediaButton p.ur_member_response a:hover{color:#fb932d;text-decoration:underline}#headerpageHelpBlock li strong a:hover,#headerpageHelpBlock li strong a:active{color:#f27300}.contentpageContainer{margin:0
+102px}#pathpage_top{text-align:left;margin-bottom:0.5em;background:#F2F2F2;border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;color:#b453ba;padding:0.2em 0 0.2em 0.4em}#pathpage_bottom{text-align:left;color:#b453ba;padding:0.2em 0 0.8em 0.4em}#pathpage_bottom a:hover{text-decoration:underline;color:#F66}#sidebarpage{width:150px}#sidebarpage
+#sidebarpageDescriptionBlock{border:1px
+solid #f99}#sidebarpage #sidebarpageDescriptionBlock
+h3{color:#f03;background-color:#ffeef1;border-bottom:1px solid #f99;border-left:10px solid #ff8099;margin:0.1em;padding:0.2em 0.2em 0.2em 5px}#sidebarpage #sidebarpageDescriptionBlock
+p{padding:0.2em}#sidebarpage #sidebarpageRelatelinkBlock
+ul{background-color:#c9c9c9;padding:0.2em 2px 0.3em}#sidebarpage #sidebarpageRelatelinkBlock ul
+li{color:#FFC554}#sidebarpage #sidebarpageRelatelinkBlock li
+a{background:url(http://www.urcosme.com/images_index/sidebar_menu_off.gif) no-repeat;display:block;line-height:2.2em;margin:0.1em;padding:0
+0 0 1.5em}#sidebarpage #sidebarpageRelatelinkBlock li a:hover{text-decoration:none;color:#555;background:url(http://www.urcosme.com/images_index/sidebar_menu_hover.gif) no-repeat}#sidebarpage #sidebarpageRelatelinkBlock li strong
+a{background:url(http://www.urcosme.com/images_index/sidebar_menu_on.gif) no-repeat;font-weight:400;color:#555;display:block;line-height:2.2em;margin:0.1em;padding:0
+0 0 1.5em}#sidebarpage #sidebarpageRelatelinkBlock
+h5{margin:1em
+0.3em}#sidebarpage #sidebarpageRelatelinkBlock h5
+a{}#sidebarpage
+#sidebarpageHelpBlock{border-right:1px solid #f99;border-bottom:1px solid #f99;border-left:1px solid #f99}#sidebarpage #sidebarpageHelpBlock
+ul{background-color:#f99;padding-left:0.2em;margin:0
+0.1em 0.1em}#sidebarpage #sidebarpageHelpBlock li a:link{text-decoration:underline;color:#fff}#sidebarpage
+#sidebarpageSearchOtherBlock{margin-top:0.4em;border:1px
+solid #999;background-color:#F9F9F9}#sidebarpage #sidebarpageSearchOtherBlock
+h3{padding:0.2em}#sidebarpage #sidebarpageSearchOtherBlock
+ul{padding-top:0.5em}#sidebarpage #sidebarpageSearchOtherBlock
+li{padding:0.1em}#sidebarpage
+#sidebarpageAdsBlock{margin-top:0.4em}#sidebarpageLeftTopBanner
+img{display:block;margin-bottom:0.3em}#headerpage
+.headerpageSearchBlock{float:left;width:24%;background:url(http://www.urcosme.com/images_index/search_block_bg.gif) repeat-x;margin:1.1em 0 0 0.8em}#headerpage .headerpageSearchBlock
+.headerpageSearchInputBlock{float:left;background:url(http://www.urcosme.com/images_index/search_block_left.gif) no-repeat;padding:0.6em 0 0.6em 1.3em}#headerpage .headerpageSearchBlock input,#headerpage .headerpageSearchBlock
+select{width:12em;margin:0.1em}#headerpage .headerpageSearchBlock
+p{float:right;background:url(http://www.urcosme.com/images_index/search_block_right.gif) right no-repeat;padding:1.15em 1.2em 1.2em 0}#headerpage
+#headerpageNavBlock{margin-bottom:1em;padding:0.2em}#headerpage #headerpageNavBlock
+ul{padding-left:0.5em;border-bottom:1px dashed #ccc}#headerpage #headerpageNavBlock ul span
+img{margin-bottom:-3.5em;padding-left:3.5em}#headerpage
+#headerpageAdsBlock{text-align:center;margin-right:95px;margin-left:95px;margin-top:10px;padding:0
+0 0.3em}#contentpage #contentpageSearchNoFoundBlock
+h3{color:#F03;font-weight:700;margin-bottom:0.5em}#contentpage #contentpageSearchNoFoundBlock p
+strong{color:#585858;font-weight:700}#contentpage #contentpageSearchNoFoundBlock
+ul{line-height:1.5em}#contentpage
+#contentpageSearchNoFoundBlockOther{background-color:#FFC;margin:0.5em 0;padding:0.3em}#contentpage #contentpageSearchNoFoundBlockOther
+h4{color:#F90;font-weight:700}#headerpageHelpBlock li strong,#headerpageHelpBlock li strong a:link,#headerpageHelpBlock li strong a:visited{color:#ec3c87}#pathpage_top strong,#pathpage_bottom
+strong{font-weight:400}#pathpage_top a,#pathpage_bottom a,#sidebarpage #sidebarpageSearchOtherBlock li a,#footerpage #footerpageCopyright
+a{}#pathpage_top a:link,#pathpage_top a:visited{text-decoration:underline;color:#b453ba}#pathpage_top a:hover,#pathpage_top a:active{text-decoration:underline;color:#cc8ecb}#pathpage_top h2,#pathpage_bottom
+h2{display:inline;color:#CD99D0}#pathpage_bottom a:link,#pathpage_bottom a:visited,#pathpage_bottom a:active{text-decoration:underline;color:#B453BA}#sidebarpage #sidebarpageRelatelinkBlock li a:link,#sidebarpage #sidebarpageRelatelinkBlock li a:visited,#sidebarpage #sidebarpageRelatelinkBlock li a:active{text-decoration:none;color:#555}#sidebarpage #sidebarpageHelpBlock li,#footerpage .footerpageMenu
+li{color:#fff}#sidebarpage #sidebarpageHelpBlock li a:visited,#sidebarpage #sidebarpageHelpBlock li a:hover{text-decoration:none;color:#fff}#headerpage #headerpageNavBlock li,#footerpage
+li{display:inline}.footerpageCategory{padding:0
+1.5em 1em 1.5em}.footerpageCategory
+li{display:inline;color:#999}.footerpageCategory li
+strong{margin:0
+0 0 -0.5em}.footerpageCategory li
+a{}.footerpageCategory li a:link, .footerpageCategory li a:visited{color:#999;text-decoration:none}.footerpageCategory li a:hover, .footerpageCategory li a:active{color:#999;text-decoration:underline}.contentpageContainer{margin:0
+2.5em}#container{background-color:#fff}.beautyDiaryInforBlock{}.beautyDiaryInforBlock
+h3{width:30%;float:left}.beautyDiaryInforBlock
+ol{width:46%;margin:0;padding:0;float:left}.beautyDiaryInforBlock ol
+li{list-style:none;margin:0;padding:0}.beautyDiaryInforBlock
+.userPickUp{width:23%;float:left;background:url(http://www.urcosme.com/beauty_diary/images/pickup_bg.gif) no-repeat;margin:0;padding:0;height:230px}.beautyDiaryInforBlock .userPickUp dl
+dt{width:35%;float:left;margin:50px
+10px 0 0.5em;padding:0;color:#555}.beautyDiaryInforBlock .userPickUp dl dt
+a{color:#555}.beautyDiaryInforBlock .userPickUp dl dt a:link, .beautyDiaryInforBlock .userPickUp dl dt a:visited{color:#555;text-decoration:none}.beautyDiaryInforBlock .userPickUp dl
+dd{width:50%;float:left;margin:20px
+0 0 0;padding:0}.beautyDiaryInforBlock .userPickUp dl dd
+img{border:5px
+solid #fff}.beautyDiaryInforBlock .userPickUp
+ul{margin:0.5em 0 0 0}.beautyDiaryInforBlock .userPickUp ul
+li{text-align:center}.beautyDiaryInforBlock .userPickUp ul li
+a{}#contentpage{width:62%;float:left}.beautyDiaryRealtimeReportBlock{}.beautyDiaryRealtimeReportBlock
+h3{border-bottom:2px solid #d2d2d2}.beautyDiaryRealtimeReportBlock h3
+a{}.beautyDiaryRealtimeReportBlock h3
+strong{color:#e4ab12}.beautyDiaryRealtimeReportBlock
+.listBlock{border-bottom:1px dashed #ccc;padding:0.5em 0 0 0;height:100%}.beautyDiaryRealtimeReportBlock .listBlock
+ol{margin:0;padding:0;float:left;width:33%}.beautyDiaryRealtimeReportBlock .listBlock ol
+li{margin:0;padding:0;list-style:none;float:left;width:60px;text-align:center}.beautyDiaryRealtimeReportBlock .listBlock ol li
+strong{display:inline-block;padding-top:1.5em;font-weight:normal}.beautyDiaryRealtimeReportBlock .listBlock ol li span
+img{padding:3px;border:1px
+solid #ccc}.beautyDiaryRealtimeReportBlock .listBlock
+ul{float:left;width:65%;margin-left:0.5em}.beautyDiaryRealtimeReportBlock .listBlock ul
+li{padding:0.2em 0;line-height:1.6em}.beautyDiaryRealtimeReportBlock .listBlock ul li
+a{}.beautyDiaryRealtimeReportBlock .listBlock ul li
+strong{color:#d3980e;font-weight:normal}.beautyDiaryRealtimeReportBlock .listBlock ul li
+span{float:right;color:#ccc}.beautyDiaryRealtimeReportBlock .listCommentBlock
+p{padding:0.2em 0;line-height:1.6em}.beautyDiaryRealtimeReportBlock .listCommentBlock p
+label{display:block;float:left;width:10%;padding:1em
+0 0 0}.beautyDiaryRealtimeReportBlock .listCommentBlock p
+em{display:block;float:left;width:88%;font-style:normal;border-top:1px dashed #ccc;padding:0.7em 0 0.5em 0}.beautyDiaryRealtimeReportBlock .listCommentBlock p em
+a{}.beautyDiaryRealtimeReportBlock .listCommentBlock p
+textarea{}.beautyDiaryRealtimeReportBlock .listCommentBlock p
+span{float:right}.beautyDiaryRealtimeReportBlock
+h6{text-align:center;margin:1em
+0 1.5em 0}.beautyDiaryRealtimeReportBlock h6
+a{}.beautyDiarySearchBlock{border:2px
+solid #ede4f5;padding:0.5em 0;height:100%;margin:1em
+0}.beautyDiarySearchBlock
+h3{background:url(http://www.urcosme.com/beauty_diary/images/search_icon.gif) no-repeat 7px 0px;padding:0.5em 0 0 2.5em}.beautyDiarySearchBlock
+p{padding:0.3em 0 0 0.6em}.beautyDiarySearchBlock p
+label{color:#fff;background-color:#c59cd4;padding:0.3em}.beautyDiarySearchBlock p
+span{float:right;margin:0.3em 2em 0 0}.beautyDiarySearchBlock p span
+a{border:1px
+outset;background-color:#e7e7e7;padding:0.3em}.beautyDiarySearchBlock p span a:link{text-decoration:none;color:#8c539f}.beautyDiarySearchBlock p span a:visited{text-decoration:none;color:#8c539f}.beautyDiarySearchBlock p span a:hover{text-decoration:none;color:#c59cd4}.beautyDiarySearchBlock p span a:active{text-decoration:none;color:#c59cd4}.beautyDiarySearchBlock
+ul{float:left;width:85%;margin:0
+0 0.5em 0.5em;padding-bottom:0.5em;border-bottom:1px dotted #ccc}.beautyDiarySearchBlock
+ol{float:left;width:95%;margin:0
+0 0.5em 0.5em;padding:0
+0 0.5em 0;border-bottom:1px dotted #ccc}.beautyDiarySearchBlock
+li{color:#2aa69b;font-weight:bold;line-height:1.8em;list-style:none}.beautyDiarySearchBlock li
+span{float:right;color:#666;font-weight:normal}.beautyDiarySearchBlock
+h2{float:left;border:1px
+solid #ccc;padding:0.2em;width:45px;margin-left:0.3em}#contentpageBeautydiaryDisplayFunctionBar{}#contentpageBeautydiaryDisplayFunctionBar
+p{padding:1em
+0 0 0}#contentpageBeautydiaryDisplayFunctionBar
+ul{}#contentpageBeautydiaryDisplayFunctionBar ul
+li{display:inline}#contentpageBeautydiaryDisplayFunctionBar ul li
+a{}#contentpageBeautydiaryDisplayFunctionBar ul
+label{padding-left:1.5em;background:url(http://www.urcosme.com/beauty_diary/images/functicon.gif) no-repeat 0 30%}#contentpageBeautydiaryDisplayFunctionBar ul li
+strong{color:#ff6b60;font-weight:normal}#contentpageBeautydiaryDisplayFunctionBar ul li strong
+a{color:#ff6b60}#contentpageBeautydiaryDisplayFunctionBar ul li strong a:link, #contentpageBeautydiaryDisplayFunctionBar ul li strong a:visited{text-decoration:underline;color:#ff6b60}#contentpageBeautydiaryDisplayFunctionBar ul li strong a:hover, #contentpageBeautydiaryDisplayFunctionBar ul li strong a:active{text-decoration:underline;color:#ffaca6}.dividepageBlockPageInfor{padding-top:0.9em}.dividepageBlockPage{padding-top:0.5em}.contentpageBeautydiaryFriendBlockList{margin:0.5em 0 0.9em 0;}.contentpageBeautydiaryFriendBlockList
+h3{border:1px
+solid #eda7bf;padding:0.4em;margin-bottom:1em}.contentpageBeautydiaryFriendBlockList
+a{}.contentpageBeautydiaryFriendBlockList
+span{padding:0.9em}.contentpageBeautydiaryFriendBlockContent{float:right;width:440px}.contentpageBeautydiaryFriendBlockContent ul
+li{padding:0.1em;margin:0}.contentpageBeautydiaryFriendBlockContent ul li
+label{float:left;padding-top:0.4em;width:65px}.contentpageBeautydiaryFriendBlockContent ul li
+strong{padding:0.3em 0 0.2em 0;float:left}.contentpageBeautydiaryFriendBlockContent ul li
+em{padding:0.4em 0 0.2em 0;font-style:normal;float:left;width:370px}.contentpageBeautydiaryFriendBlockPic{width:70px;hight:70px;padding:5px;border:1px
+solid #CCC;text-align:center}.activeExpBar{margin-top:0.2em;float:left}.activeExpBar1{height:0.8em}.activeExpBar2{height:0.8em}.activeExpBar
+strong{font-weight:normal}.activeExpBar
+label{float:left;text-align:center;width:5em;height:1em;background-color:#EEC;color:#960;padding:0.3em 0}#sidebarpage{width:36%;float:left;margin:2em
+0 0 1.3em}#sidebarpage
+.beautyDiaryAstrologyBlock{border:2px
+solid #efefef}#sidebarpage .beautyDiaryAstrologyBlock
+h3{}#sidebarpage .beautyDiaryAstrologyBlock
+h4{padding:0.5em 1em 0.2em 1em;color:#444}#sidebarpage .beautyDiaryAstrologyBlock h5
+a{margin:0.5em 1.5em 0.8em 1.5em;display:block}#sidebarpage .beautyDiaryAstrologyBlock h5 a:link, #sidebarpage .beautyDiaryAstrologyBlock h5 a:visited{color:#888;text-decoration:none}#sidebarpage .beautyDiaryAstrologyBlock h5 a:hover, #sidebarpage .beautyDiaryAstrologyBlock h5 a:active{color:#888;text-decoration:underline}#sidebarpage
+.beautyDiaryBuylistBlock{border-right:2px solid #efefef;border-left:2px solid #efefef;border-bottom:2px solid #efefef;padding:1em;height:100%;margin: -1.3em 0 1em 0}#sidebarpage
+.beautyDiaryBuylistTitleBlock{margin:0.2em 0 0 0}#sidebarpage .beautyDiaryBuylistBlock
+h3{color:#d3980e;padding:0.5em 0 0 0}#sidebarpage .beautyDiaryBuylistBlock
+h4{color:#888;padding:0.5em 0 0 0}#sidebarpage .beautyDiaryBuylistBlock
+h5{color:#333;padding:0.5em 0 0 0;margin:0
+0 -1.6em 0}#sidebarpage .beautyDiaryBuylistBlock
+#slide{}#sidebarpage .beautyDiaryBuylistBlock
+ul{width:280px;margin:0
+0 0.5em 0}#sidebarpage .beautyDiaryBuylistBlock ul
+li{text-align:right}#sidebarpage .beautyDiaryBuylistBlock #slide ul li
+strong{color:#e4ab12;font-size:1.7em}#sidebarpage .beautyDiaryBuylistBlock #slide ul li
+em{color:#c64057;font-size:1.2em;font-weight:bold;font-style:normal}#sidebarpage .beautyDiaryBuylistBlock
+.buylistBg{background:url(http://www.urcosme.com/beauty_diary/images/buylist_bg.gif) no-repeat;height:50px}#sidebarpage .beautyDiaryBuylistBlock
+h6{width:260px;padding:1em
+1em;color:#c64057}#sidebarpage .beautyDiaryBuylistBlock h6
+a{padding:0
+0.5em}#sidebarpage .beautyDiaryBuylistBlock h6 a:link, #sidebarpage .beautyDiaryBuylistBlock h6 a:visited{color:#c64057}#sidebarpage .beautyDiaryBuylistBlock h6 a:hover, #sidebarpage .beautyDiaryBuylistBlock h6 a:active{color:#c64057;text-decoration:none}#sidebarpage
+.beautyDiaryUserRankingBlock{border-bottom:2px solid #efefef}#sidebarpage .beautyDiaryUserRankingBlock
+h3{margin:0
+0 0.3em 0}#sidebarpage
+.rankingContentBlock{border-top:2px solid #efefef;border-right:2px solid #efefef;border-left:2px solid #efefef;padding:1em
+1em 0.6em 1em;height:100%}#sidebarpage .rankingContentBlock
+dl{margin:0;padding:0}#sidebarpage .rankingContentBlock dl
+dt{float:left;width:20%;margin:0;padding:0}#sidebarpage .rankingContentBlock dl dt
+img{border:1px
+solid #e3e3e4}#sidebarpage .rankingContentBlock dl
+dd{float:left;width:75%;margin:0;padding:0.2em 0 0 1em}#sidebarpage .rankingContentBlock dl dd
+img{margin:0.3em 0 0 -0.3em}#sidebarpage .rankingContentBlock a:link dl, #sidebarpage .rankingContentBlock a:visited
+dl{text-decoration:none}#sidebarpage .rankingContentBlock dl dd
+span{float:right;color:#999}#sidebarpage .rankingContentBlock
+ul{padding:0.2em 0.3em 0.5em 0.3em;border-bottom:1px dashed #e3e3e4}#sidebarpage .rankingContentBlock ul
+li{padding:0.1em 0}#sidebarpage .rankingContentBlock ul li
+a{}#sidebarpage .rankingContentBlock ul li
+span{float:right;color:#d3980e}#sidebarpage .rankingContentBlock ul li
+strong{color:#d3980e}#sidebarpage .rankingContentBlock ul li strong a:link, #sidebarpage .rankingContentBlock ul li strong a:visited{color:#d3980e;font-weight:normal}#sidebarpage .rankingContentBlock ul li strong a:hover, #sidebarpage .rankingContentBlock ul li strong a:active{color:#d3980e;text-decoration:none;font-weight:normal}#sidebarpage .rankingContentBlock ul li
+em{font-style:normal;color:#888}#sidebarpage .rankingContentBlock ul li
+b{margin-left:7em;font-weight:normal}#sidebarpage .rankingContentBlock
+p{padding:1em
+0.3em 0.5em 0.3em;text-align:right}#sidebarpage .rankingContentBlock p
+a{}#sidebarpage .rankingContentBlock p a:link, #sidebarpage .rankingContentBlock p a:visited{color:#c64057}#sidebarpage .rankingContentBlock p a:hover, #sidebarpage .rankingContentBlock p a:active{color:#c64057;text-decoration:none}.beautyDiaryBuylistWeeklyBlock{margin:2em
+0 0 0}.beautyDiaryBuylistWeeklyBlock
+.buylistWeeklyTitleBlock{background:url(http://www.urcosme.com/buylist/journal/images/weekly_title_mbd.jpg) no-repeat;width:559px;height:120px;margin:0.3em 0}.beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock
+h5{text-align:right;padding:35px
+14px 0 0;color:#fff}.beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock
+h3{padding:15px
+0 0 202px;color:#8ab832;font-weight:bold}.beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock h3 a:link, .beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock h3 a:visited{color:#8ab832;text-decoration:none}.beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock h3 a:hover, .beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock h3 a:active{color:#c89611;text-decoration:underline}.beautyDiaryBuylistWeeklyBlock .buylistWeeklyTitleBlock
+p{padding:0
+0 0 202px;color:#888}.beautyDiaryBuylistWeeklyBlock
+.buylistLatest{padding:0;margin:0}.beautyDiaryBuylistWeeklyBlock .buylistLatest
+p{float:left}.beautyDiaryBuylistWeeklyBlock .buylistLatest p
+img{padding:2px;border:1px
+solid #ccc}.beautyDiaryBuylistWeeklyBlock .buylistLatest
+ul{float:left;margin:0
+0 0 1em}.beautyDiaryBuylistWeeklyBlock .buylistLatest ul
+li{margin:0}.beautyDiaryBuylistWeeklyBlock .buylistLatest ul li
+a{}.beautyDiaryBuylistWeeklyBlock .buylistLatest ul li a:link, .beautyDiaryBuylistWeeklyBlock .buylistLatest ul li a:visited{color:#888;text-decoration:none}.beautyDiaryBuylistWeeklyBlock .buylistLatest ul li a:hover, .beautyDiaryBuylistWeeklyBlock .buylistLatest ul li a:active{color:#888;text-decoration:underline}.beautyDiaryBuylistWeeklyBlock .buylistLatest ul li
+span{float:right;padding:1em
+0 0 0;color:#888}.beautyDiaryBuylistWeeklyBlock .buylistLatest ul li
+strong{background:url(http://www.urcosme.com/buylist/journal/images/buylist_comment_mbd.gif) no-repeat;padding:1.2em 0 1em 1.3em;display:block;width:460px;font-size:1.15em;font-weight:normal;color:#444}.beautyDiaryBuylistWeeklyBlock
+.buylistLatestMore{font-weight:bold;color:#999;text-align:center}.beautyDiaryBuylistWeeklyBlock .buylistLatestMore em
+a{font-style:normal;color:#e4ab12}.beautyDiaryBuylistWeeklyBlock .buylistLatestMore strong
+a{color:#8ab832}.beautyDiaryBuylistWeeklyBlock .buylistLatestMore strong a
+span{font-size:1.25em}.beautyDiaryBuylistWeeklyBlock .buylistLatestMore a:hover{text-decoration:none}.wrapperNewProductUserRankingEntry{width:560px;border:0px
+dotted red;background-color:#fff;position:relative}.blockNewProductUserRankingDate{border:0px
+solid blue;text-align:right;margin-right:3.5em}.blockNewProductUserRankingDate{color:#f8c092}.blockNewProductUserRankingDate span
+a{}.blockNewProductUserRankingDateNow{font-size:1.2em;color:#ff7200;font-weight:bold}.blockNewProductUserRankingDateNow
+small{}.blockNewProductUserRankingDate small
+a{margin-left:0.2em}.blockNewProductUserRankingMonth{color:#fff;font-size:3em;font-family:Arial,Helvetica,sans-serif;margin-left:4.9em;margin-left:4.8em \9;margin-top:0.4em;text-align:center;width:65px}.blockNewProductUserRankingMonth
+p{margin-top:-0.9em;margin-top:-0.75em \9;font-size:0.29em;font-size:0.25em \9;color:#fff;font-weight:bold;margin-left:1.5em;display:block;padding:0;width:5em}.wrapperNewProductUserRankingList{border:0px
+dotted red}.blockNewProductUserRankingList01{border:0px
+solid orange;width:32.8%;background-color:#fff7e8;position:relative;float:left;margin:0.1em 0.1em 0.2em 0.1em}.blockNewProductUserRankingList01Top{background-color:#bf700d;height:3px;margin-bottom:3em;font-size:1px;display:block}.blockNewProductUserRankingList01Footer{background-color:#f8ba25;text-align:right}.blockNewProductUserRankingList01Footer
+a{height:23px;margin-right:1em;color:#fff}.blockNewProductUserRankingList01Footer a:hover{color:#f9d57e}.blockNewProductUserRankingList01Date{color:#fff;display:block;width:64px;height:17px;text-align:center;margin:0
+auto 0.2em auto;background:url(http://www.urcosme.com/templates/newproduct/img/date_bg.gif) no-repeat}.blockNewProductUserRankingList01Brand{line-height:110%;display:block}.blockNewProductUserRankingList01Brand a, .blockNewProductUserRankingList01Brand a:link, .blockNewProductUserRankingList01Brand a:visited, .blockNewProductUserRankingList01Brand a:active{color:#bf700d;text-decoration:none}.blockNewProductUserRankingList01Brand a:hover{color:#e0a65c}.blockNewProductUserRankingList01Productpic{float:left;border:0px
+solid #e9d3a3;width:38px;margin-left:0.3em;margin-right:0.3em}.blockNewProductUserRankingList01Productpic
+img{width:38px;height:38px;border:1px
+solid #e9d3a3;display:block;margin:0
+auto 0.5em auto}.blockNewProductUserRankingList01PointSum{color:#fff;text-align:center;padding-top:0.5em;background-color:#bf700d;display:block;width:4em;height:2.5em;float:right;margin-top:-1em;margin-bottom:0.5em;margin-right:0.2em;position:relative}.blockNewProductUserRankingList01PointSum
+b{font-size:1.4em}.blockNewProductUserRankingList01Review{background-color:#feedb7;width:99%;padding-bottom:0.1em}.blockNewProductUserRankingList01ReviewArrow{background-color:#fff;text-align:center}.blockNewProductUserRankingList01ReviewAvatarPic
+img{width:38px;height:38px;float:left;margin:0.2em}.blockNewProductUserRankingList01ReviewTitle{background-color:#fff;width:11.5em;float:left;margin-top:0.2em;text-align:center;color:#bf700d}.blockNewProductUserRankingList01ReviewName a, .blockNewProductUserRankingList01ReviewName a:link, .blockNewProductUserRankingList01ReviewName a:active, .blockNewProductUserRankingList01ReviewName a:visited{text-decoration:none;color:#b3560b}.blockNewProductUserRankingList01ReviewName a:hover{color:#db8e51}

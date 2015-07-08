@@ -1,0 +1,18 @@
+#sidebarBeautydiary ul.sidebarBeautydiaryAbout [uc-member] span .top100.top100-2014.badge-current,#sidebarBeautydiary ul.sidebarBeautydiaryAbout [uc-member] span .top100-2014.badge-current.patrol,#sidebarBeautydiary ul.sidebarBeautydiaryAbout [uc-member] span .top100-2014.badge-current.newer {
+  background:url(http://assets.event.urcosme.com/public/ranking-2014/top100_2014.png);
+  width:40px;
+  height:48px;
+}
+
+#sidebarBeautydiary ul.sidebarBeautydiaryAbout [uc-member] span .patrol.patrol-2014.badge-current {
+  background:url(http://assets.event.urcosme.com/public/ranking-2014/patrol_2014.png);
+  width:40px;
+  height:48px;
+}
+
+#sidebarBeautydiary ul.sidebarBeautydiaryAbout [uc-member] span .newer.newer-2014.badge-current {
+  background:url(http://assets.event.urcosme.com/public/ranking-2014/newer_2014.png);
+  width:40px;
+  height:48px;
+}
+
